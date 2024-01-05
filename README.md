@@ -12,7 +12,7 @@ Template, markdown, and other files intended for use with Obsidian.
 
 I organize my notebook like so:
 
-* Notebok
+* Notebook
   * Top Level Section
     * Subsection
       * etc.
