@@ -23,9 +23,21 @@ I organize my notebook like so:
 I want breadcrumbs to:
 
 * only show the "Notebook" breadcrumb on the "Top Level Section" pages
-* do not show the folder note in the breadcrumbs
+* if viewing the folder note, do not show the current folder in the breadcrumbs
 
-You can see the desired result in the ``Notebook.md`` file, the ``Assets.md`` file and the ``Templates.md`` file.
+You can see the desired result in these files:
 
+* ``Notebook/Notebook.md``
+* ``Notebook/Assets/Assets.md``
+* ``Notebook/Assets/Templates/Templates.md``
 
+## Month Templates
+
+I create calendars for each month, with each day being a link to that journal's day. I have included the LibreOffice Calc file I use to generate the markdown calendar:
+
+* ``journal_templates.ods``
+
+I have also included an example journal file:
+
+* ``Notebook\Journal\2024\2024-01 January\2024-01-01.md``
 
