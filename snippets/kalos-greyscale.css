@@ -1,7 +1,7 @@
 /* 
 Kalos Greyscale
 MIT License 
-Copyright (c) 2024 Brandon Blackmoor <bblackmoor@blackgate.net>
+Copyright 2024 Brandon Blackmoor <bblackmoor@blackgate.net>
 https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 */
 
@@ -45,6 +45,10 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --color-pink: #fcf5fc; /* 'Lilac09' dark */
 }
 
+.theme-dark, .theme-light {
+    --list-marker-color: var(--text-normal);
+}
+
 .theme-light.minimal-kalos-greyscale-light {
 --base-h: 0; /* rgb(255, 255, 255) #ffffff 'White' */
 --base-s: 0%;
@@ -54,9 +58,9 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --accent-s: 60%;
 --accent-l: 10%;
 
---bg1: #fbfbfe; /* rgb(251, 251, 254) #fbfbfe 'Indigo00' */
---bg2: #f8f8fd; /* rgb(248, 248, 253) #f8f8fd 'Indigo01' */
---bg3: rgba(255, 255, 255, 0.5); /* rgb(255, 255, 255) #ffffff 'White' */
+--bg1: #f8f8f8; /* rgb(251, 251, 254) #f8f8f8 'grayscale01' */
+--bg2: #e1e1e1; /* rgb(225, 225, 225) #e1e1e1 'grayscale03' */
+--bg3: rgba(251, 251, 254, 0.5); /* rgb(251, 251, 254) #fbfbfe 'Indigo00' */
 
 --ui1: #0a0a29; /* rgb(10, 10, 41) #0a0a29 'Indigo12' */
 --ui2: #18185f; /* rgb(24, 24, 95) #18185f 'Indigo11' */
@@ -104,8 +108,39 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --ui1:#000000 /* rgb(0, 0, 0) #000000 'Black' */
 }
 
-/* 
-// Kalos Grayscale palette: https://grayscale.design/app?lums=93.88,87.19,75.61,61.14,42.57,28.39,18.04,11.21,6.97,4.72,1.63&palettes=%232f2fbc,%23e28be2,%23b22222,%232fbcbc&filters=0%7C0,0%7C0,0%7C0,0%7C0&names=Indigo,Lilac,Maroon,Teal&labels=,,,
+/* ======== */
+/* List spacing */
+/* List spacing CSS adapted from Tau-8 2023-10 */
+body.minimal-theme {
+    --list-spacing: 0!important;
+    --list-spacing-1: 0.4rem;
+    --list-spacing-2: 0.3rem;
+    --list-spacing-3: 0.2rem;
+}
+
+div > * > li:not(:last-child) { /* All level 1, excluding last */
+    margin-bottom: var(--list-spacing-1);
+}
+
+div > * > li > * > li:first-child { /* All first level 2 */
+    padding-top: var(--list-spacing-2);
+}
+
+div > * > li > * > li:not(:last-child) { /* All level 2, excluding last */
+    margin-bottom: var(--list-spacing-2);
+}
+
+div > * > li > * > li > * > li:first-child { /* All first level 3 */
+    padding-top: var(--list-spacing-3);
+}
+
+div > * > li > * > li > * > li:not(:last-child) { /* All level 3, excluding last */
+    margin-bottom: var(--list-spacing-3);
+}
+
+/* ======== */
+/* Kalos Grayscale palette */
+/* https://grayscale.design/app?lums=93.88,87.19,75.61,61.14,42.57,28.39,18.04,11.21,6.97,4.72,1.63&palettes=%232f2fbc,%23e28be2,%23b22222,%232fbcbc&filters=0%7C0,0%7C0,0%7C0,0%7C0&names=Indigo,Lilac,Maroon,Teal&labels=,,, */
 
 const grayscale = {
   'grayscale01': 'rgb(248, 248, 248)',	/* #f8f8f8 */
