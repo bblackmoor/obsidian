@@ -100,8 +100,8 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --tx2: #fdfdfd; /* rgb(253, 253, 253) #fdfdfd 'grayscale11' dark */
 --tx3: #fafafa; /* rgb(250, 250, 250) #fafafa 'grayscale10' dark */
 
---hl1: rgba(105, 105, 217, 0.5); /* rgb(169, 169, 233) #a9a9e9 'Indigo05' */
---hl2: rgba(169, 169, 233, 0.5); /* rgb(202, 202, 242) #cacaf2 'Indigo04' */
+--hl1: rgba(205, 217, 229, 0.5); /* rgb(205, 217, 229) #cdd9e5 'BlueV3+7' */
+--hl2: rgba(171, 191, 212, 0.5); /* rgb(171, 191, 212) #abbfd4 'BlueV3+5' */
 }
 
 .theme-dark.minimal-kalos-greyscale-dark.minimal-dark-black {
@@ -109,7 +109,6 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 }
 
 /* ======== */
-/* List spacing */
 /* List spacing CSS adapted from Tau-8 2023-10 */
 body.minimal-theme {
     --list-spacing: 0!important;
