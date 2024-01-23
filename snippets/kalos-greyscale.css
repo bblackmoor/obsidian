@@ -54,24 +54,24 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --base-s: 0%;
 --base-l: 100%;
 
---accent-h: 240; /* rgb(10, 10, 41) #0a0a29 'Indigo12' */
---accent-s: 60%;
---accent-l: 10%;
+--accent-h: 210; /* rgb(238, 242, 246) #eef2f6 'BlueV3+9' */
+--accent-s: 31%;
+--accent-l: 5%;
 
---bg1: #f8f8f8; /* rgb(251, 251, 254) #f8f8f8 'grayscale01' */
---bg2: #e1e1e1; /* rgb(225, 225, 225) #e1e1e1 'grayscale03' */
---bg3: rgba(251, 251, 254, 0.5); /* rgb(251, 251, 254) #fbfbfe 'Indigo00' */
+--bg1: #eef2f6; /* rgb(238, 242, 246) #eef2f6 'BlueV3+9' */
+--bg2: #dde6ee; /* rgb(221, 230, 238) #dde6ee 'BlueV3+8' */
+--bg3: rgba(87, 128, 168, 0.5); /* rgb(87, 128, 168) #5780a8 'BlueV3+0' */
 
---ui1: #0a0a29; /* rgb(10, 10, 41) #0a0a29 'Indigo12' */
---ui2: #18185f; /* rgb(24, 24, 95) #18185f 'Indigo11' */
+--ui1: #eef2f6; /* rgb(238, 242, 246) #eef2f6 'BlueV3+9' */
+--ui2: #dde6ee; /* rgb(221, 230, 238) #dde6ee 'BlueV3+8' */
 --ui3: #000000; /* rgb(0, 0, 0) #000000 'Black' */
   
 --tx1: #000000; /* rgb(0, 0, 0) #000000 'Black' */
 --tx2: #222222; /* rgb(34, 34, 34) #222222 'grayscale11' */
 --tx3: #3d3d3d; /* rgb(61, 61, 61) #3d3d3d 'grayscale10' */
 
---hl1: rgba(105, 105, 217, 0.5); /* rgb(169, 169, 233) #a9a9e9 'Indigo05' */
---hl2: rgba(169, 169, 233, 0.5); /* rgb(202, 202, 242) #cacaf2 'Indigo04' */
+--hl1: rgba(171, 191, 212, 0.5); /* rgb(171, 191, 212) #abbfd4 'BlueV3+5' */
+--hl2: rgba(205, 217, 229, 0.5); /* rgb(205, 217, 229) #cdd9e5 'BlueV3+7' */
 }
 
 .theme-dark.minimal-kalos-greyscale-dark,
@@ -141,6 +141,28 @@ div > * > li > * > li > * > li:not(:last-child) { /* All level 3, excluding last
 /* ======== */
 /* Kalos Grayscale palette */
 /* https://grayscale.design/app?lums=93.88,87.19,75.61,61.14,42.57,28.39,18.04,11.21,6.97,4.72,1.63&palettes=%232f2fbc,%23e28be2,%23b22222,%232fbcbc&filters=0%7C0,0%7C0,0%7C0,0%7C0&names=Indigo,Lilac,Maroon,Teal&labels=,,, */
+
+const BlueV3 = {
+  'BlueV3+9': 'rgb(238, 242, 246)',	/* #eef2f6 */
+  'BlueV3+8': 'rgb(221, 230, 238)',	/* #dde6ee */
+  'BlueV3+7': 'rgb(205, 217, 229)',	/* #cdd9e5 */
+  'BlueV3+6': 'rgb(188, 204, 220)',	/* #bcccdc */
+  'BlueV3+5': 'rgb(171, 191, 212)',	/* #abbfd4 */
+  'BlueV3+4': 'rgb(154, 178, 203)',	/* #9ab2cb */
+  'BlueV3+3': 'rgb(137, 166, 194)',	/* #89a6c2 */
+  'BlueV3+2': 'rgb(120, 153, 186)',	/* #7899ba */
+  'BlueV3+1': 'rgb(104, 140, 177)',	/* #688cb1 */
+  'BlueV3+0': 'rgb(87, 128, 168)',	/* #5780a8 */
+  'BlueV3-1': 'rgb(78, 115, 151)',	/* #4e7397 */
+  'BlueV3-2': 'rgb(69, 102, 135)',	/* #456687 */
+  'BlueV3-3': 'rgb(61, 89, 118)',	/* #3d5976 */
+  'BlueV3-4': 'rgb(52, 76, 101)',	/* #344c65 */
+  'BlueV3-5': 'rgb(43, 64, 84)',	/* #2b4054 */
+  'BlueV3-6': 'rgb(35, 51, 67)',	/* #233343 */
+  'BlueV3-7': 'rgb(26, 38, 50)',	/* #1a2632 */
+  'BlueV3-8': 'rgb(17, 26, 34)',	/* #111a22 */
+  'BlueV3-9': 'rgb(9, 13, 17)',		/* #090d11 */
+};
 
 const grayscale = {
   'grayscale01': 'rgb(248, 248, 248)',	/* #f8f8f8 */
