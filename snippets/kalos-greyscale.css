@@ -6,43 +6,43 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 */
 
 .theme-light.minimal-kalos-greyscale-light {
---color-red-rgb: 145, 28, 28; /* 'Maroon09' */
---color-orange-rgb: 145, 28, 28; /* 'Maroon09' */
---color-yellow-rgb: 145, 28, 28; /* 'Maroon09' */
---color-green-rgb: 21, 83, 83; /* 'Teal09' */
---color-cyan-rgb: 21, 83, 83; /* 'Teal09' */
---color-blue-rgb: 21, 83, 83; /* 'Teal09' */
---color-purple-rgb: 126, 32, 126; /* 'Lilac09' */
---color-pink-rgb: 126, 32, 126; /* 'Lilac09' */
+--color-red-rgb: 225, 107, 107;		/* rgb(225, 107, 107) #e16b6b hsl(0, 66%, 65%) */
+--color-orange-rgb: 145, 28, 28;	/* rgb(225, 195, 107) #e1c36b hsl(45, 66%, 65%) */
+--color-yellow-rgb: 145, 28, 28;	/* rgb(166, 225, 107) #a6e16b hsl(90, 66%, 65%) */
+--color-green-rgb: 21, 83, 83;		/* rgb(107, 225, 137) #6be189 hsl(135, 66%, 65%) */
+--color-cyan-rgb: 21, 83, 83;		/* rgb(107, 225, 225) #6be1e1 hsl(180, 66%, 65%) */
+--color-blue-rgb: 107, 137, 225;	/* rgb(107, 137, 225) #6b89e1 hsl(225, 66%, 65%) */
+--color-purple-rgb: 166, 107, 225;	/* rgb(166, 107, 225) #a66be1 hsl(270, 66%, 65%) */
+--color-pink-rgb: 225, 107, 195;	/* rgb(225, 107, 195) #e16bc3 hsl(315, 66%, 65%) */
 
---color-red: #911c1c; /* 'Maroon09' */
---color-orange: #911c1c; /* 'Maroon09' */
---color-yellow: #911c1c; /* 'Maroon09' */
---color-green: #155353; /* 'Teal09' */
---color-cyan: #155353; /* 'Teal09' */
---color-blue: #155353; /* 'Teal09' */
---color-purple: #7e207e; /* 'Lilac09' */
---color-pink: #7e207e; /* 'Lilac09' */
+--color-red: #e16b6b;		/* rgb(225, 107, 107) #e16b6b hsl(0, 66%, 65%) */
+--color-orange: #e1c36b;	/* rgb(225, 195, 107) #e1c36b hsl(45, 66%, 65%) */
+--color-yellow: #a6e16b;	/* rgb(166, 225, 107) #a6e16b hsl(90, 66%, 65%) */
+--color-green: #6be189;		/* rgb(107, 225, 137) #6be189 hsl(135, 66%, 65%) */
+--color-cyan: #6be1e1;		/* rgb(107, 225, 225) #6be1e1 hsl(180, 66%, 65%) */
+--color-blue: #6b89e1;		/* rgb(107, 137, 225) #6b89e1 hsl(225, 66%, 65%) */
+--color-purple: #a66be1;	/* rgb(166, 107, 225) #a66be1 hsl(270, 66%, 65%) */
+--color-pink: #e16bc3;		/* rgb(225, 107, 195) #e16bc3 hsl(315, 66%, 65%) */
 }
 
 .theme-dark.minimal-kalos-greyscale-dark {
---color-red-rgb: 253, 245, 245; /* 'Maroon09' dark */
---color-orange-rgb: 253, 245, 245; /* 'Maroon09' dark */
---color-yellow-rgb: 253, 245, 245; /* 'Maroon09' dark */
---color-green-rgb: 235, 250, 250; /* 'Teal09' dark */
---color-cyan-rgb: 235, 250, 250; /* 'Teal09' dark */
---color-blue-rgb: 235, 250, 250; /* 'Teal09' dark */
---color-purple-rgb: 252, 245, 252; /* 'Lilac09' dark */
---color-pink-rgb: 252, 245, 252; /* 'Lilac09' dark */
+--color-red-rgb: 253, 245, 245;		/* rgb(148, 30, 30) #941e1e hsl(0, 66%, 35%) */
+--color-orange-rgb: 253, 245, 245;	/* rgb(148, 119, 30) #94771e hsl(45, 66%, 35%) */
+--color-yellow-rgb: 253, 245, 245;	/* rgb(89, 148, 30) #59941e hsl(90, 66%, 35%) */
+--color-green-rgb: 235, 250, 250;	/* rgb(30, 148, 60) #1e943c hsl(135, 66%, 35%) */
+--color-cyan-rgb: 235, 250, 250;	/* rgb(30, 148, 148) #1e9494 hsl(180, 66%, 35%) */
+--color-blue-rgb: 235, 250, 250;	/* rgb(30, 60, 148) #1e3c94 hsl(225, 66%, 35%) */
+--color-purple-rgb: 252, 245, 252;	/* rgb(89, 30, 148) #591e94 hsl(270, 66%, 35%) */
+--color-pink-rgb: 252, 245, 252;	/* rgb(148, 30, 119) #941e77 hsl(315, 66%, 35%) */
 
---color-red: #fdf5f5; /* 'Maroon09' dark */
---color-orange: #fdf5f5; /* 'Maroon09' dark */
---color-yellow: #fdf5f5; /* 'Maroon09' dark */
---color-green: #ebfafa; /* 'Teal09' dark */
---color-cyan: #ebfafa; /* 'Teal09' dark */
---color-blue: #ebfafa; /* 'Teal09' dark */
---color-purple: #fcf5fc; /* 'Lilac09' dark */
---color-pink: #fcf5fc; /* 'Lilac09' dark */
+--color-red: 253, 245, 245;		/* rgb(148, 30, 30) #941e1e hsl(0, 66%, 35%) */
+--color-orange: 253, 245, 245;	/* rgb(148, 119, 30) #94771e hsl(45, 66%, 35%) */
+--color-yellow: 253, 245, 245;	/* rgb(89, 148, 30) #59941e hsl(90, 66%, 35%) */
+--color-green: 235, 250, 250;	/* rgb(30, 148, 60) #1e943c hsl(135, 66%, 35%) */
+--color-cyan: 235, 250, 250;	/* rgb(30, 148, 148) #1e9494 hsl(180, 66%, 35%) */
+--color-blue: 235, 250, 250;	/* rgb(30, 60, 148) #1e3c94 hsl(225, 66%, 35%) */
+--color-purple: 252, 245, 252;	/* rgb(89, 30, 148) #591e94 hsl(270, 66%, 35%) */
+--color-pink: 252, 245, 252;	/* rgb(148, 30, 119) #941e77 hsl(315, 66%, 35%) */
 }
 
 .theme-dark, .theme-light {
@@ -50,28 +50,28 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 }
 
 .theme-light.minimal-kalos-greyscale-light {
---base-h: 0; /* rgb(255, 255, 255) #ffffff 'White' */
+--base-h: 0; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
 --base-s: 0%;
 --base-l: 100%;
 
---accent-h: 210; /* rgb(238, 242, 246) #eef2f6 'BlueV3+9' */
+--accent-h: 210; /* 'KalosBlue95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
 --accent-s: 31%;
---accent-l: 5%;
+--accent-l: 95%;
 
---bg1: #eef2f6; /* rgb(238, 242, 246) #eef2f6 'BlueV3+9' */
---bg2: #dde6ee; /* rgb(221, 230, 238) #dde6ee 'BlueV3+8' */
---bg3: rgba(87, 128, 168, 0.5); /* rgb(87, 128, 168) #5780a8 'BlueV3+0' */
+--bg1: #eef2f6; /* 'KalosBlue95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
+--bg2: #dde6ee; /* 'KalosBlue90': rgb(221, 230, 238) #dde6ee hsl(208, 32%, 90%) */
+--bg3: rgba(87, 127, 168, 0.5); /* 'KalosBlue50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
 
---ui1: #eef2f6; /* rgb(238, 242, 246) #eef2f6 'BlueV3+9' */
---ui2: #dde6ee; /* rgb(221, 230, 238) #dde6ee 'BlueV3+8' */
---ui3: #000000; /* rgb(0, 0, 0) #000000 'Black' */
+--ui1: #eef2f6; /* 'KalosBlue95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
+--ui2: #dde6ee; /* 'KalosBlue90': rgb(221, 230, 238) #dde6ee hsl(208, 32%, 90%) */
+--ui3: #000000; /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
   
---tx1: #000000; /* rgb(0, 0, 0) #000000 'Black' */
---tx2: #222222; /* rgb(34, 34, 34) #222222 'grayscale11' */
---tx3: #3d3d3d; /* rgb(61, 61, 61) #3d3d3d 'grayscale10' */
+--tx1: #000000; /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
+--tx2: #262626; /* 'KalosGrey15': rgb(38, 38, 38) #262626 hsl(0, 0%, 15%) */
+--tx3: #333333; /* 'KalosGrey20': rgb(51, 51, 51) #333333 hsl(0, 0%, 20%) */
 
---hl1: rgba(171, 191, 212, 0.5); /* rgb(171, 191, 212) #abbfd4 'BlueV3+5' */
---hl2: rgba(205, 217, 229, 0.5); /* rgb(205, 217, 229) #cdd9e5 'BlueV3+7' */
+--hl1: rgba(171, 191, 212, 0.5); /* 'KalosBlue75': rgb(171, 191, 212) #abbfd4 hsl(211, 32%, 75%) */
+--hl2: rgba(205, 217, 229, 0.5); /* 'KalosBlue85': rgb(205, 217, 229) #cdd9e5 hsl(210, 32%, 85%) */
 }
 
 .theme-dark.minimal-kalos-greyscale-dark,
@@ -80,36 +80,37 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 .theme-light.minimal-kalos-greyscale-light.minimal-light-contrast .workspace-drawer.mod-left,
 .theme-light.minimal-kalos-greyscale-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
 .theme-light.minimal-kalos-greyscale-light.minimal-light-contrast.minimal-status-off .status-bar {
---base-h: 0; /* rgb(0, 0, 0) #000000 'Black' */
+--base-h: 0; /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
 --base-s: 0%;
 --base-l: 0%;
 
---accent-h: 240; /* rgb(253, 253, 255) #fdfdff 'Indigo11' dark */
---accent-s: 100%;
---accent-l: 100%;
+--accent-h: 210; /* 'KalosBlue15': rgb(26, 38, 50) #1a2632 hsl(210, 32%, 15%) */
+--accent-s: 32%;
+--accent-l: 15%;
 
---bg1: #050514; /* rgb(5, 5, 20) #050514 'Indigo-02' dark */
---bg2: #0a0a29; /* rgb(10, 10, 41) #0a0a29 'Indigo-01' dark */
---bg3: rgba(0, 0, 0, 0.5); /* rgb(0, 0, 0) #000000 'Black' */
+--bg1: #090d11; /* 'KalosBlue05': rgb(9, 13, 17) #090d11 hsl(210, 31%, 5%) */
+--bg2: #111922; /* 'KalosBlue10': 'rgb(17, 25, 34)' #111922 hsl(212, 33%, 10%) */
+--bg3: rgba(87, 127, 168, 0.5); /* 'KalosBlue50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
 
---ui1: #fbfbfe; /* rgb(253, 253, 255) #fdfdff 'Indigo11' dark */
---ui2: #18185f; /* rgb(249, 249, 254) #f9f9fe 'Indigo10' dark */
---ui3: #ffffff; /* rgb(255, 255, 255) #ffffff 'White' */
+--ui1: #090d11; /* 'KalosBlue05': rgb(9, 13, 17) #090d11 hsl(210, 31%, 5%) */
+--ui2: #111922; /* 'KalosBlue10': 'rgb(17, 25, 34)' #111922 hsl(212, 33%, 10%) */
+--ui3: #ffffff; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
   
---tx1: #ffffff; /* rgb(255, 255, 255) #ffffff 'White' */
---tx2: #fdfdfd; /* rgb(253, 253, 253) #fdfdfd 'grayscale11' dark */
---tx3: #fafafa; /* rgb(250, 250, 250) #fafafa 'grayscale10' dark */
+--tx1: #ffffff; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
+--tx2: #f2f2f2; /* 'KalosGrey95': rgb(242, 242, 242) #f2f2f2 hsl(0, 0%, 95%) */
+--tx3: #e6e6e6; /* 'KalosGrey90': rgb(230, 230, 230) #e6e6e6 hsl(0, 0%, 90%) */
 
---hl1: rgba(205, 217, 229, 0.5); /* rgb(205, 217, 229) #cdd9e5 'BlueV3+7' */
---hl2: rgba(171, 191, 212, 0.5); /* rgb(171, 191, 212) #abbfd4 'BlueV3+5' */
+--hl1: rgba(205, 217, 229, 0.5); /* 'KalosBlue85': rgb(205, 217, 229) #cdd9e5 hsl(210, 32%, 85%) */
+--hl2: rgba(171, 191, 212, 0.5); /* 'KalosBlue75': rgb(171, 191, 212) #abbfd4 hsl(211, 32%, 75%) */
 }
 
 .theme-dark.minimal-kalos-greyscale-dark.minimal-dark-black {
---ui1:#000000 /* rgb(0, 0, 0) #000000 'Black' */
+--ui1:#000000 /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
 }
 
 /* ======== */
 /* List spacing CSS adapted from Tau-8 2023-10 */
+
 body.minimal-theme {
     --list-spacing: 0!important;
     --list-spacing-1: 0.4rem;
@@ -138,174 +139,50 @@ div > * > li > * > li > * > li:not(:last-child) { /* All level 3, excluding last
 }
 
 /* ======== */
-/* Kalos Grayscale palette */
-/* https://grayscale.design/app?lums=93.88,87.19,75.61,61.14,42.57,28.39,18.04,11.21,6.97,4.72,1.63&palettes=%232f2fbc,%23e28be2,%23b22222,%232fbcbc&filters=0%7C0,0%7C0,0%7C0,0%7C0&names=Indigo,Lilac,Maroon,Teal&labels=,,, */
+/* Kalos palettes */
 
-const BlueV3 = {
-  'BlueV3+9': 'rgb(238, 242, 246)',	/* #eef2f6 */
-  'BlueV3+8': 'rgb(221, 230, 238)',	/* #dde6ee */
-  'BlueV3+7': 'rgb(205, 217, 229)',	/* #cdd9e5 */
-  'BlueV3+6': 'rgb(188, 204, 220)',	/* #bcccdc */
-  'BlueV3+5': 'rgb(171, 191, 212)',	/* #abbfd4 */
-  'BlueV3+4': 'rgb(154, 178, 203)',	/* #9ab2cb */
-  'BlueV3+3': 'rgb(137, 166, 194)',	/* #89a6c2 */
-  'BlueV3+2': 'rgb(120, 153, 186)',	/* #7899ba */
-  'BlueV3+1': 'rgb(104, 140, 177)',	/* #688cb1 */
-  'BlueV3+0': 'rgb(87, 128, 168)',	/* #5780a8 */
-  'BlueV3-1': 'rgb(78, 115, 151)',	/* #4e7397 */
-  'BlueV3-2': 'rgb(69, 102, 135)',	/* #456687 */
-  'BlueV3-3': 'rgb(61, 89, 118)',	/* #3d5976 */
-  'BlueV3-4': 'rgb(52, 76, 101)',	/* #344c65 */
-  'BlueV3-5': 'rgb(43, 64, 84)',	/* #2b4054 */
-  'BlueV3-6': 'rgb(35, 51, 67)',	/* #233343 */
-  'BlueV3-7': 'rgb(26, 38, 50)',	/* #1a2632 */
-  'BlueV3-8': 'rgb(17, 26, 34)',	/* #111a22 */
-  'BlueV3-9': 'rgb(9, 13, 17)',		/* #090d11 */
+const KalosGrey = {
+  'KalosGrey05': 'rgb(13, 13, 13)',		/* #0d0d0d hsl(0, 0%, 5%) */
+  'KalosGrey10': 'rgb(26, 26, 26)',		/* #1a1a1a hsl(0, 0%, 10%) */
+  'KalosGrey15': 'rgb(38, 38, 38)',		/* #262626 hsl(0, 0%, 15%) */
+  'KalosGrey20': 'rgb(51, 51, 51)',		/* #333333 hsl(0, 0%, 20%) */
+  'KalosGrey25': 'rgb(64, 64, 64)',		/* #404040 hsl(0, 0%, 25%) */
+  'KalosGrey30': 'rgb(77, 77, 77)',		/* #4d4d4d hsl(0, 0%, 30%) */
+  'KalosGrey35': 'rgb(89, 89, 89)',		/* #595959 hsl(0, 0%, 35%) */
+  'KalosGrey40': 'rgb(102, 102, 102)',	/* #666666 hsl(0, 0%, 40%) */
+  'KalosGrey45': 'rgb(115, 115, 115)',	/* #737373 hsl(0, 0%, 45%) */
+  'KalosGrey50': 'rgb(128, 128, 128)',	/* #808080 hsl(0, 0%, 50%) */
+  'KalosGrey55': 'rgb(140, 140, 140)',	/* #8c8c8c hsl(0, 0%, 55%) */
+  'KalosGrey60': 'rgb(153, 153, 153)',	/* #999999 hsl(0, 0%, 60%) */
+  'KalosGrey65': 'rgb(166, 166, 166)',	/* #a6a6a6 hsl(0, 0%, 65%) */
+  'KalosGrey70': 'rgb(179, 179, 179)',	/* #b3b3b3 hsl(0, 0%, 70%) */
+  'KalosGrey75': 'rgb(191, 191, 191)',	/* #bfbfbf hsl(0, 0%, 75%) */
+  'KalosGrey80': 'rgb(204, 204, 204)',	/* #cccccc hsl(0, 0%, 80%) */
+  'KalosGrey85': 'rgb(217, 217, 217)',	/* #d9d9d9 hsl(0, 0%, 85%) */
+  'KalosGrey90': 'rgb(230, 230, 230)',	/* #e6e6e6 hsl(0, 0%, 90%) */
+  'KalosGrey95': 'rgb(242, 242, 242)',	/* #f2f2f2 hsl(0, 0%, 95%) */
 };
 
-const grayscale = {
-  'grayscale01': 'rgb(248, 248, 248)',	/* #f8f8f8 */
-  'grayscale02': 'rgb(240, 240, 240)',	/* #f0f0f0 */
-  'grayscale03': 'rgb(225, 225, 225)',	/* #e1e1e1 */
-  'grayscale04': 'rgb(205, 205, 205)',	/* #cdcdcd */
-  'grayscale05': 'rgb(174, 174, 174)',	/* #aeaeae */
-  'grayscale06': 'rgb(145, 145, 145)',	/* #919191 */
-  'grayscale07': 'rgb(118, 118, 118)',	/* #767676 */
-  'grayscale08': 'rgb(94, 94, 94)',		/* #5e5e5e */
-  'grayscale09': 'rgb(75, 75, 75)',		/* #4b4b4b */
-  'grayscale10': 'rgb(61, 61, 61)',		/* #3d3d3d */
-  'grayscale11': 'rgb(34, 34, 34)',		/* #222222 */
-};
-
-const grayscaleDark = {
-  'grayscale01': 'rgb(70, 70, 70)',		/* #464646 */
-  'grayscale02': 'rgb(100, 100, 100)',	/* #646464 */
-  'grayscale03': 'rgb(135, 135, 135)',	/* #878787 */
-  'grayscale04': 'rgb(167, 167, 167)',	/* #a7a7a7 */
-  'grayscale05': 'rgb(199, 199, 199)',	/* #c7c7c7 */
-  'grayscale06': 'rgb(220, 220, 220)',	/* #dcdcdc */
-  'grayscale07': 'rgb(234, 234, 234)',	/* #eaeaea */
-  'grayscale08': 'rgb(242, 242, 242)',	/* #f2f2f2 */
-  'grayscale09': 'rgb(247, 247, 247)',	/* #f7f7f7 */
-  'grayscale10': 'rgb(250, 250, 250)',	/* #fafafa */
-  'grayscale11': 'rgb(253, 253, 253)',	/* #fdfdfd */
-};
-
-const Indigo = {
-  'Indigo00': 'rgb(251, 251, 254)',		/* #fbfbfe */
-  'Indigo01': 'rgb(248, 248, 253)',		/* #f8f8fd */
-  'Indigo02': 'rgb(239, 239, 251)',		/* #efeffb */
-  'Indigo03': 'rgb(224, 224, 247)',		/* #e0e0f7 */
-  'Indigo04': 'rgb(202, 202, 242)',		/* #cacaf2 */
-  'Indigo05': 'rgb(169, 169, 233)',		/* #a9a9e9 */
-  'Indigo06': 'rgb(136, 136, 225)',		/* #8888e1 */
-  'Indigo07': 'rgb(105, 105, 217)',		/* #6969d9 */
-  'Indigo08': 'rgb(75, 75, 210)',		/* #4b4bd2 */
-  'Indigo09': 'rgb(49, 49, 197)',		/* #3131c5 */
-  'Indigo10': 'rgb(41, 41, 164)',		/* #2929a4 */
-  'Indigo11': 'rgb(24, 24, 95)',		/* #18185f */
-  'Indigo12': 'rgb(10, 10, 41)',		/* #0a0a29 */
-};
-
-const IndigoDark = {
-  'Indigo-02': rgb(5, 5, 20)',			/* #050514 */
-  'Indigo-01': rgb(10, 10, 41)',		/* #0a0a29 */
-  'Indigo00': 'rgb(20, 20, 82)',		/* #141452 */
-  'Indigo01': 'rgb(45, 45, 181)',		/* #2d2db5 */
-  'Indigo02': 'rgb(84, 84, 212)',		/* #5454d4 */
-  'Indigo03': 'rgb(124, 124, 222)',		/* #7c7cde */
-  'Indigo04': 'rgb(161, 161, 231)',		/* #a1a1e7 */
-  'Indigo05': 'rgb(196, 196, 240)',		/* #c4c4f0 */
-  'Indigo06': 'rgb(218, 218, 246)',		/* #dadaf6 */
-  'Indigo07': 'rgb(232, 232, 249)',		/* #e8e8f9 */
-  'Indigo08': 'rgb(241, 241, 252)',		/* #f1f1fc */
-  'Indigo09': 'rgb(247, 247, 253)',		/* #f7f7fd */
-  'Indigo10': 'rgb(249, 249, 254)',		/* #f9f9fe */
-  'Indigo11': 'rgb(253, 253, 255)',		/* #fdfdff */
-};
-
-const Lilac = {
-  'Lilac01': 'rgb(253, 246, 253)',		/* #fdf6fd */
-  'Lilac02': 'rgb(250, 236, 250)',		/* #faecfa */
-  'Lilac03': 'rgb(245, 217, 245)',		/* #f5d9f5 */
-  'Lilac04': 'rgb(239, 190, 239)',		/* #efbeef */
-  'Lilac05': 'rgb(228, 146, 228)',		/* #e492e4 */
-  'Lilac06': 'rgb(216, 99, 216)',		/* #d863d8 */
-  'Lilac07': 'rgb(197, 49, 197)',		/* #c531c5 */
-  'Lilac08': 'rgb(158, 39, 158)',		/* #9e279e */
-  'Lilac09': 'rgb(126, 32, 126)',		/* #7e207e */
-  'Lilac10': 'rgb(104, 26, 104)',		/* #681a68 */
-  'Lilac11': 'rgb(60, 15, 60)',			/* #3c0f3c */
-};
-
-const LilacDark = {
-  'Lilac01': 'rgb(118, 30, 118)',		/* #761e76 */
-  'Lilac02': 'rgb(168, 42, 168)',		/* #a82aa8 */
-  'Lilac03': 'rgb(211, 80, 211)',		/* #d350d3 */
-  'Lilac04': 'rgb(225, 134, 225)',		/* #e186e1 */
-  'Lilac05': 'rgb(237, 182, 237)',		/* #edb6ed */
-  'Lilac06': 'rgb(244, 210, 244)',		/* #f4d2f4 */
-  'Lilac07': 'rgb(248, 227, 248)',		/* #f8e3f8 */
-  'Lilac08': 'rgb(251, 238, 251)',		/* #fbeefb */
-  'Lilac09': 'rgb(252, 245, 252)',		/* #fcf5fc */
-  'Lilac10': 'rgb(253, 248, 253)',		/* #fdf8fd */
-  'Lilac11': 'rgb(254, 253, 254)',		/* #fefdfe */
-};
-
-const Maroon = {
-  'Maroon01': 'rgb(253, 247, 247)',		/* #fdf7f7 */
-  'Maroon02': 'rgb(252, 237, 237)',		/* #fceded */
-  'Maroon03': 'rgb(248, 219, 219)',		/* #f8dbdb */
-  'Maroon04': 'rgb(243, 193, 193)',		/* #f3c1c1 */
-  'Maroon05': 'rgb(235, 152, 152)',		/* #eb9898 */
-  'Maroon06': 'rgb(227, 109, 109)',		/* #e36d6d */
-  'Maroon07': 'rgb(217, 57, 57)',		/* #d93939 */
-  'Maroon08': 'rgb(182, 35, 35)',		/* #b62323 */
-  'Maroon09': 'rgb(145, 28, 28)',		/* #911c1c */
-  'Maroon10': 'rgb(121, 23, 23)',		/* #791717 */
-  'Maroon11': 'rgb(70, 13, 13)',		/* #460d0d */
-};
-
-const MaroonDark = {
-  'Maroon01': 'rgb(134, 26, 26)',		/* #861a1a */
-  'Maroon02': 'rgb(192, 37, 37)',		/* #c02525 */
-  'Maroon03': 'rgb(224, 92, 92)',		/* #e05c5c */
-  'Maroon04': 'rgb(234, 143, 143)',		/* #ea8f8f */
-  'Maroon05': 'rgb(242, 186, 186)',		/* #f2baba */
-  'Maroon06': 'rgb(247, 212, 212)',		/* #f7d4d4 */
-  'Maroon07': 'rgb(250, 229, 229)',		/* #fae5e5 */
-  'Maroon08': 'rgb(252, 239, 239)',		/* #fcefef */
-  'Maroon09': 'rgb(253, 245, 245)',		/* #fdf5f5 */
-  'Maroon10': 'rgb(254, 248, 248)',		/* #fef8f8 */
-  'Maroon11': 'rgb(255, 253, 253)',		/* #fffdfd */
-};
-
-const Teal = {
-  'Teal01': 'rgb(239, 251, 251)',		/* #effbfb */
-  'Teal02': 'rgb(219, 246, 246)',		/* #dbf6f6 */
-  'Teal03': 'rgb(179, 236, 236)',		/* #b3ecec */
-  'Teal04': 'rgb(119, 221, 221)',		/* #77dddd */
-  'Teal05': 'rgb(48, 193, 193)',		/* #30c1c1 */
-  'Teal06': 'rgb(40, 161, 161)',		/* #28a1a1 */
-  'Teal07': 'rgb(33, 130, 130)',		/* #218282 */
-  'Teal08': 'rgb(26, 104, 104)',		/* #1a6868 */
-  'Teal09': 'rgb(21, 83, 83)',			/* #155353 */
-  'Teal10': 'rgb(17, 68, 68)',			/* #114444 */
-  'Teal11': 'rgb(10, 39, 39)',			/* #0a2727 */
-};
-
-const TealDark = {
-  'Teal01': 'rgb(19, 75, 75)',			/* #134b4b */
-  'Teal02': 'rgb(27, 109, 109)',		/* #1b6d6d */
-  'Teal03': 'rgb(37, 150, 150)',		/* #259696 */
-  'Teal04': 'rgb(46, 186, 186)',		/* #2ebaba */
-  'Teal05': 'rgb(102, 217, 217)',		/* #66d9d9 */
-  'Teal06': 'rgb(164, 232, 232)',		/* #a4e8e8 */
-  'Teal07': 'rgb(201, 242, 242)',		/* #c9f2f2 */
-  'Teal08': 'rgb(223, 247, 247)',		/* #dff7f7 */
-  'Teal09': 'rgb(235, 250, 250)',		/* #ebfafa */
-  'Teal10': 'rgb(242, 252, 252)',		/* #f2fcfc */
-  'Teal11': 'rgb(250, 254, 254)',		/* #fafefe */
+const KalosBlue = {
+  'KalosBlue05': 'rgb(9, 13, 17)',		/* #090d11 hsl(210, 31%, 5%) */
+  'KalosBlue10': 'rgb(17, 25, 34)',		/* #111922 hsl(212, 33%, 10%) */
+  'KalosBlue15': 'rgb(26, 38, 50)',		/* #1a2632 hsl(210, 32%, 15%) */
+  'KalosBlue20': 'rgb(35, 51, 67)',		/* #233343 hsl(210, 31%, 20%) */
+  'KalosBlue25': 'rgb(43, 64, 84)',		/* #2b4054 hsl(209, 32%, 25%) */
+  'KalosBlue30': 'rgb(52, 76, 101)',	/* #344c65 hsl(211, 32%, 30%) */
+  'KalosBlue35': 'rgb(61, 89, 118)',	/* #3d5976 hsl(211, 32%, 35%) */
+  'KalosBlue40': 'rgb(69, 102, 135)',	/* #456687 hsl(210, 32%, 40%) */
+  'KalosBlue45': 'rgb(78, 115, 151)',	/* #4e7397 hsl(210, 32%, 45%) */
+  'KalosBlue50': 'rgb(87, 127, 168)',	/* #577fa8 hsl(210, 32%, 50%) */
+  'KalosBlue55': 'rgb(104, 140, 177)',	/* #688cb1 hsl(210, 32%, 55%) */
+  'KalosBlue60': 'rgb(120, 153, 186)',	/* #7899ba hsl(210, 32%, 60%) */
+  'KalosBlue65': 'rgb(137, 166, 194)',	/* #89a6c2 hsl(209, 32%, 65%) */
+  'KalosBlue70': 'rgb(154, 178, 203)',	/* #9ab2cb hsl(211, 32%, 70%) */
+  'KalosBlue75': 'rgb(171, 191, 212)',	/* #abbfd4 hsl(211, 32%, 75%) */
+  'KalosBlue80': 'rgb(188, 204, 220)',	/* #bcccdc hsl(210, 31%, 80%) */
+  'KalosBlue85': 'rgb(205, 217, 229)',	/* #cdd9e5 hsl(210, 32%, 85%) */
+  'KalosBlue90': 'rgb(221, 230, 238)',	/* #dde6ee hsl(208, 32%, 90%) */
+  'KalosBlue95': 'rgb(238, 242, 246)',	/* #eef2f6 hsl(210, 31%, 95%) */
 };
 
 */
