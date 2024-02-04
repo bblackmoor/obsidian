@@ -54,24 +54,24 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --base-s: 0%;
 --base-l: 100%;
 
---accent-h: 210; /* 'KalosBlue95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
---accent-s: 31%;
---accent-l: 95%;
+--accent-h: 210; /* 'KalosSteely15': rgb(26, 38, 50) #1a2632 hsl(210, 32%, 15%) */
+--accent-s: 32%;
+--accent-l: 15%;
 
---bg1: #eef2f6; /* 'KalosBlue95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
---bg2: #dde6ee; /* 'KalosBlue90': rgb(221, 230, 238) #dde6ee hsl(208, 32%, 90%) */
---bg3: rgba(87, 127, 168, 0.5); /* 'KalosBlue50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
+--bg1: #eef2f6; /* 'KalosSteely95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
+--bg2: #dde6ee; /* 'KalosSteely90': rgb(221, 230, 238) #dde6ee hsl(208, 32%, 90%) */
+--bg3: rgba(87, 127, 168, 0.5); /* 'KalosSteely50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
 
---ui1: #eef2f6; /* 'KalosBlue95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
---ui2: #dde6ee; /* 'KalosBlue90': rgb(221, 230, 238) #dde6ee hsl(208, 32%, 90%) */
+--ui1: #eef2f6; /* 'KalosSteely95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
+--ui2: #dde6ee; /* 'KalosSteely90': rgb(221, 230, 238) #dde6ee hsl(208, 32%, 90%) */
 --ui3: #000000; /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
   
 --tx1: #000000; /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
---tx2: #262626; /* 'KalosGrey15': rgb(38, 38, 38) #262626 hsl(0, 0%, 15%) */
---tx3: #333333; /* 'KalosGrey20': rgb(51, 51, 51) #333333 hsl(0, 0%, 20%) */
+--tx2: #262626; /* 'KalosLeaden15': rgb(38, 38, 38) #262626 hsl(0, 0%, 15%) */
+--tx3: #333333; /* 'KalosLeaden20': rgb(51, 51, 51) #333333 hsl(0, 0%, 20%) */
 
---hl1: rgba(171, 191, 212, 0.5); /* 'KalosBlue75': rgb(171, 191, 212) #abbfd4 hsl(211, 32%, 75%) */
---hl2: rgba(205, 217, 229, 0.5); /* 'KalosBlue85': rgb(205, 217, 229) #cdd9e5 hsl(210, 32%, 85%) */
+--hl1: rgba(171, 191, 212, 0.5); /* 'KalosSteely75': rgb(171, 191, 212) #abbfd4 hsl(211, 32%, 75%) */
+--hl2: rgba(205, 217, 229, 0.5); /* 'KalosSteely85': rgb(205, 217, 229) #cdd9e5 hsl(210, 32%, 85%) */
 }
 
 .theme-dark.minimal-kalos-greyscale-dark,
@@ -84,24 +84,24 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --base-s: 0%;
 --base-l: 0%;
 
---accent-h: 210; /* 'KalosBlue15': rgb(26, 38, 50) #1a2632 hsl(210, 32%, 15%) */
---accent-s: 32%;
---accent-l: 15%;
+--accent-h: 210; /* 'KalosSteely95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
+--accent-s: 31%;
+--accent-l: 95%;
 
---bg1: #090d11; /* 'KalosBlue05': rgb(9, 13, 17) #090d11 hsl(210, 31%, 5%) */
---bg2: #111922; /* 'KalosBlue10': 'rgb(17, 25, 34)' #111922 hsl(212, 33%, 10%) */
---bg3: rgba(87, 127, 168, 0.5); /* 'KalosBlue50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
+--bg1: #090d11; /* 'KalosSteely05': rgb(9, 13, 17) #090d11 hsl(210, 31%, 5%) */
+--bg2: #111922; /* 'KalosSteely10': 'rgb(17, 25, 34)' #111922 hsl(212, 33%, 10%) */
+--bg3: rgba(87, 127, 168, 0.5); /* 'KalosSteely50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
 
---ui1: #090d11; /* 'KalosBlue05': rgb(9, 13, 17) #090d11 hsl(210, 31%, 5%) */
---ui2: #111922; /* 'KalosBlue10': 'rgb(17, 25, 34)' #111922 hsl(212, 33%, 10%) */
+--ui1: #090d11; /* 'KalosSteely05': rgb(9, 13, 17) #090d11 hsl(210, 31%, 5%) */
+--ui2: #111922; /* 'KalosSteely10': 'rgb(17, 25, 34)' #111922 hsl(212, 33%, 10%) */
 --ui3: #ffffff; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
   
 --tx1: #ffffff; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
---tx2: #f2f2f2; /* 'KalosGrey95': rgb(242, 242, 242) #f2f2f2 hsl(0, 0%, 95%) */
---tx3: #e6e6e6; /* 'KalosGrey90': rgb(230, 230, 230) #e6e6e6 hsl(0, 0%, 90%) */
+--tx2: #f2f2f2; /* 'KalosLeaden95': rgb(242, 242, 242) #f2f2f2 hsl(0, 0%, 95%) */
+--tx3: #e6e6e6; /* 'KalosLeaden90': rgb(230, 230, 230) #e6e6e6 hsl(0, 0%, 90%) */
 
---hl1: rgba(205, 217, 229, 0.5); /* 'KalosBlue85': rgb(205, 217, 229) #cdd9e5 hsl(210, 32%, 85%) */
---hl2: rgba(171, 191, 212, 0.5); /* 'KalosBlue75': rgb(171, 191, 212) #abbfd4 hsl(211, 32%, 75%) */
+--hl1: rgba(205, 217, 229, 0.5); /* 'KalosSteely85': rgb(205, 217, 229) #cdd9e5 hsl(210, 32%, 85%) */
+--hl2: rgba(171, 191, 212, 0.5); /* 'KalosSteely75': rgb(171, 191, 212) #abbfd4 hsl(211, 32%, 75%) */
 }
 
 .theme-dark.minimal-kalos-greyscale-dark.minimal-dark-black {
@@ -141,48 +141,92 @@ div > * > li > * > li > * > li:not(:last-child) { /* All level 3, excluding last
 /* ======== */
 /* Kalos palettes */
 
-const KalosGrey = {
-  'KalosGrey05': 'rgb(13, 13, 13)',		/* #0d0d0d hsl(0, 0%, 5%) */
-  'KalosGrey10': 'rgb(26, 26, 26)',		/* #1a1a1a hsl(0, 0%, 10%) */
-  'KalosGrey15': 'rgb(38, 38, 38)',		/* #262626 hsl(0, 0%, 15%) */
-  'KalosGrey20': 'rgb(51, 51, 51)',		/* #333333 hsl(0, 0%, 20%) */
-  'KalosGrey25': 'rgb(64, 64, 64)',		/* #404040 hsl(0, 0%, 25%) */
-  'KalosGrey30': 'rgb(77, 77, 77)',		/* #4d4d4d hsl(0, 0%, 30%) */
-  'KalosGrey35': 'rgb(89, 89, 89)',		/* #595959 hsl(0, 0%, 35%) */
-  'KalosGrey40': 'rgb(102, 102, 102)',	/* #666666 hsl(0, 0%, 40%) */
-  'KalosGrey45': 'rgb(115, 115, 115)',	/* #737373 hsl(0, 0%, 45%) */
-  'KalosGrey50': 'rgb(128, 128, 128)',	/* #808080 hsl(0, 0%, 50%) */
-  'KalosGrey55': 'rgb(140, 140, 140)',	/* #8c8c8c hsl(0, 0%, 55%) */
-  'KalosGrey60': 'rgb(153, 153, 153)',	/* #999999 hsl(0, 0%, 60%) */
-  'KalosGrey65': 'rgb(166, 166, 166)',	/* #a6a6a6 hsl(0, 0%, 65%) */
-  'KalosGrey70': 'rgb(179, 179, 179)',	/* #b3b3b3 hsl(0, 0%, 70%) */
-  'KalosGrey75': 'rgb(191, 191, 191)',	/* #bfbfbf hsl(0, 0%, 75%) */
-  'KalosGrey80': 'rgb(204, 204, 204)',	/* #cccccc hsl(0, 0%, 80%) */
-  'KalosGrey85': 'rgb(217, 217, 217)',	/* #d9d9d9 hsl(0, 0%, 85%) */
-  'KalosGrey90': 'rgb(230, 230, 230)',	/* #e6e6e6 hsl(0, 0%, 90%) */
-  'KalosGrey95': 'rgb(242, 242, 242)',	/* #f2f2f2 hsl(0, 0%, 95%) */
+const KalosLeaden = {
+  'KalosLeaden05': 'rgb(13, 13, 13)',		/* #0d0d0d hsl(0, 0%, 5%) */
+  'KalosLeaden10': 'rgb(26, 26, 26)',		/* #1a1a1a hsl(0, 0%, 10%) */
+  'KalosLeaden15': 'rgb(38, 38, 38)',		/* #262626 hsl(0, 0%, 15%) */
+  'KalosLeaden20': 'rgb(51, 51, 51)',		/* #333333 hsl(0, 0%, 20%) */
+  'KalosLeaden25': 'rgb(64, 64, 64)',		/* #404040 hsl(0, 0%, 25%) */
+  'KalosLeaden30': 'rgb(77, 77, 77)',		/* #4d4d4d hsl(0, 0%, 30%) */
+  'KalosLeaden35': 'rgb(89, 89, 89)',		/* #595959 hsl(0, 0%, 35%) */
+  'KalosLeaden40': 'rgb(102, 102, 102)',	/* #666666 hsl(0, 0%, 40%) */
+  'KalosLeaden45': 'rgb(115, 115, 115)',	/* #737373 hsl(0, 0%, 45%) */
+  'KalosLeaden50': 'rgb(128, 128, 128)',	/* #808080 hsl(0, 0%, 50%) */
+  'KalosLeaden55': 'rgb(140, 140, 140)',	/* #8c8c8c hsl(0, 0%, 55%) */
+  'KalosLeaden60': 'rgb(153, 153, 153)',	/* #999999 hsl(0, 0%, 60%) */
+  'KalosLeaden65': 'rgb(166, 166, 166)',	/* #a6a6a6 hsl(0, 0%, 65%) */
+  'KalosLeaden70': 'rgb(179, 179, 179)',	/* #b3b3b3 hsl(0, 0%, 70%) */
+  'KalosLeaden75': 'rgb(191, 191, 191)',	/* #bfbfbf hsl(0, 0%, 75%) */
+  'KalosLeaden80': 'rgb(204, 204, 204)',	/* #cccccc hsl(0, 0%, 80%) */
+  'KalosLeaden85': 'rgb(217, 217, 217)',	/* #d9d9d9 hsl(0, 0%, 85%) */
+  'KalosLeaden90': 'rgb(230, 230, 230)',	/* #e6e6e6 hsl(0, 0%, 90%) */
+  'KalosLeaden95': 'rgb(242, 242, 242)',	/* #f2f2f2 hsl(0, 0%, 95%) */
 };
 
-const KalosBlue = {
-  'KalosBlue05': 'rgb(9, 13, 17)',		/* #090d11 hsl(210, 31%, 5%) */
-  'KalosBlue10': 'rgb(17, 25, 34)',		/* #111922 hsl(212, 33%, 10%) */
-  'KalosBlue15': 'rgb(26, 38, 50)',		/* #1a2632 hsl(210, 32%, 15%) */
-  'KalosBlue20': 'rgb(35, 51, 67)',		/* #233343 hsl(210, 31%, 20%) */
-  'KalosBlue25': 'rgb(43, 64, 84)',		/* #2b4054 hsl(209, 32%, 25%) */
-  'KalosBlue30': 'rgb(52, 76, 101)',	/* #344c65 hsl(211, 32%, 30%) */
-  'KalosBlue35': 'rgb(61, 89, 118)',	/* #3d5976 hsl(211, 32%, 35%) */
-  'KalosBlue40': 'rgb(69, 102, 135)',	/* #456687 hsl(210, 32%, 40%) */
-  'KalosBlue45': 'rgb(78, 115, 151)',	/* #4e7397 hsl(210, 32%, 45%) */
-  'KalosBlue50': 'rgb(87, 127, 168)',	/* #577fa8 hsl(210, 32%, 50%) */
-  'KalosBlue55': 'rgb(104, 140, 177)',	/* #688cb1 hsl(210, 32%, 55%) */
-  'KalosBlue60': 'rgb(120, 153, 186)',	/* #7899ba hsl(210, 32%, 60%) */
-  'KalosBlue65': 'rgb(137, 166, 194)',	/* #89a6c2 hsl(209, 32%, 65%) */
-  'KalosBlue70': 'rgb(154, 178, 203)',	/* #9ab2cb hsl(211, 32%, 70%) */
-  'KalosBlue75': 'rgb(171, 191, 212)',	/* #abbfd4 hsl(211, 32%, 75%) */
-  'KalosBlue80': 'rgb(188, 204, 220)',	/* #bcccdc hsl(210, 31%, 80%) */
-  'KalosBlue85': 'rgb(205, 217, 229)',	/* #cdd9e5 hsl(210, 32%, 85%) */
-  'KalosBlue90': 'rgb(221, 230, 238)',	/* #dde6ee hsl(208, 32%, 90%) */
-  'KalosBlue95': 'rgb(238, 242, 246)',	/* #eef2f6 hsl(210, 31%, 95%) */
+const KalosSteely = {
+  'KalosSteely05': 'rgb(9, 13, 17)',		/* #090d11 hsl(210, 31%, 5%) */
+  'KalosSteely10': 'rgb(17, 25, 34)',		/* #111922 hsl(212, 33%, 10%) */
+  'KalosSteely15': 'rgb(26, 38, 50)',		/* #1a2632 hsl(210, 32%, 15%) */
+  'KalosSteely20': 'rgb(35, 51, 67)',		/* #233343 hsl(210, 31%, 20%) */
+  'KalosSteely25': 'rgb(43, 64, 84)',		/* #2b4054 hsl(209, 32%, 25%) */
+  'KalosSteely30': 'rgb(52, 76, 101)',		/* #344c65 hsl(211, 32%, 30%) */
+  'KalosSteely35': 'rgb(61, 89, 118)',		/* #3d5976 hsl(211, 32%, 35%) */
+  'KalosSteely40': 'rgb(69, 102, 135)',		/* #456687 hsl(210, 32%, 40%) */
+  'KalosSteely45': 'rgb(78, 115, 151)',		/* #4e7397 hsl(210, 32%, 45%) */
+  'KalosSteely50': 'rgb(87, 127, 168)',		/* #577fa8 hsl(210, 32%, 50%) */
+  'KalosSteely55': 'rgb(104, 140, 177)',	/* #688cb1 hsl(210, 32%, 55%) */
+  'KalosSteely60': 'rgb(120, 153, 186)',	/* #7899ba hsl(210, 32%, 60%) */
+  'KalosSteely65': 'rgb(137, 166, 194)',	/* #89a6c2 hsl(209, 32%, 65%) */
+  'KalosSteely70': 'rgb(154, 178, 203)',	/* #9ab2cb hsl(211, 32%, 70%) */
+  'KalosSteely75': 'rgb(171, 191, 212)',	/* #abbfd4 hsl(211, 32%, 75%) */
+  'KalosSteely80': 'rgb(188, 204, 220)',	/* #bcccdc hsl(210, 31%, 80%) */
+  'KalosSteely85': 'rgb(205, 217, 229)',	/* #cdd9e5 hsl(210, 32%, 85%) */
+  'KalosSteely90': 'rgb(221, 230, 238)',	/* #dde6ee hsl(208, 32%, 90%) */
+  'KalosSteely95': 'rgb(238, 242, 246)',	/* #eef2f6 hsl(210, 31%, 95%) */
+};
+
+const Kalos2Steely = {
+  'Kalos2Steely05': 'rgb(9, 12, 17)',		/* #090c11 hsl(215, 32%, 5%) */
+  'Kalos2Steely10': 'rgb(18, 23, 33)',		/* #121721 hsl(215, 32%, 10%) */
+  'Kalos2Steely15': 'rgb(27, 35, 49)',		/* #1b2331 hsl(215, 32%, 15%) */
+  'Kalos2Steely20': 'rgb(35, 51, 67)',		/* #FFFFFF hsl(215, 32%, 20%) */
+  'Kalos2Steely25': 'rgb(43, 64, 84)',		/* #FFFFFF hsl(215, 32%, 25%) */
+  'Kalos2Steely30': 'rgb(52, 76, 101)',		/* #FFFFFF hsl(215, 32%, 30%) */
+  'Kalos2Steely35': 'rgb(61, 89, 118)',		/* #FFFFFF hsl(215, 32%, 35%) */
+  'Kalos2Steely40': 'rgb(69, 102, 135)',	/* #FFFFFF hsl(215, 32%, 40%) */
+  'Kalos2Steely45': 'rgb(78, 115, 151)',	/* #FFFFFF hsl(215, 32%, 45%) */
+  'Kalos2Steely50': 'rgb(87, 127, 168)',	/* #FFFFFF hsl(215, 32%, 50%) */
+  'Kalos2Steely55': 'rgb(104, 140, 177)',	/* #FFFFFF hsl(215, 32%, 55%) */
+  'Kalos2Steely60': 'rgb(120, 153, 186)',	/* #FFFFFF hsl(215, 32%, 60%) */
+  'Kalos2Steely65': 'rgb(137, 166, 194)',	/* #FFFFFF hsl(215, 32%, 65%) */
+  'Kalos2Steely70': 'rgb(154, 178, 203)',	/* #FFFFFF hsl(215, 32%, 70%) */
+  'Kalos2Steely75': 'rgb(171, 191, 212)',	/* #FFFFFF hsl(215, 32%, 75%) */
+  'Kalos2Steely80': 'rgb(188, 204, 220)',	/* #FFFFFF hsl(215, 32%, 80%) */
+  'Kalos2Steely85': 'rgb(205, 217, 229)',	/* #FFFFFF hsl(215, 32%, 85%) */
+  'Kalos2Steely90': 'rgb(221, 230, 238)',	/* #FFFFFF hsl(215, 32%, 90%) */
+  'Kalos2Steely95': 'rgb(238, 242, 246)',	/* #FFFFFF hsl(215, 32%, 95%) */
+};
+
+const KalosCobalt = {
+  'KalosCobalt05': 'rgb(9, 13, 17)',		/* #090d11 hsl(210, 31%, 5%) */
+  'KalosCobalt10': 'rgb(17, 25, 34)',		/* #111922 hsl(212, 33%, 10%) */
+  'KalosCobalt15': 'rgb(26, 38, 50)',		/* #1a2632 hsl(210, 32%, 15%) */
+  'KalosCobalt20': 'rgb(35, 51, 67)',		/* #233343 hsl(210, 31%, 20%) */
+  'KalosCobalt25': 'rgb(43, 64, 84)',		/* #2b4054 hsl(209, 32%, 25%) */
+  'KalosCobalt30': 'rgb(52, 76, 101)',		/* #344c65 hsl(211, 32%, 30%) */
+  'KalosCobalt35': 'rgb(61, 89, 118)',		/* #3d5976 hsl(211, 32%, 35%) */
+  'KalosCobalt40': 'rgb(69, 102, 135)',		/* #456687 hsl(210, 32%, 40%) */
+  'KalosCobalt45': 'rgb(78, 115, 151)',		/* #4e7397 hsl(210, 32%, 45%) */
+  'KalosCobalt50': 'rgb(87, 127, 168)',		/* #577fa8 hsl(210, 32%, 50%) */
+  'KalosCobalt55': 'rgb(104, 140, 177)',	/* #688cb1 hsl(210, 32%, 55%) */
+  'KalosCobalt60': 'rgb(120, 153, 186)',	/* #7899ba hsl(210, 32%, 60%) */
+  'KalosCobalt65': 'rgb(137, 166, 194)',	/* #89a6c2 hsl(209, 32%, 65%) */
+  'KalosCobalt70': 'rgb(154, 178, 203)',	/* #9ab2cb hsl(211, 32%, 70%) */
+  'KalosCobalt75': 'rgb(171, 191, 212)',	/* #abbfd4 hsl(211, 32%, 75%) */
+  'KalosCobalt80': 'rgb(188, 204, 220)',	/* #bcccdc hsl(210, 31%, 80%) */
+  'KalosCobalt85': 'rgb(205, 217, 229)',	/* #cdd9e5 hsl(210, 32%, 85%) */
+  'KalosCobalt90': 'rgb(221, 230, 238)',	/* #dde6ee hsl(208, 32%, 90%) */
+  'KalosCobalt95': 'rgb(238, 242, 246)',	/* #eef2f6 hsl(210, 31%, 95%) */
 };
 
 */
