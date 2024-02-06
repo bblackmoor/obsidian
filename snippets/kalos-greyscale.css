@@ -58,8 +58,8 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --accent-s: 32%;
 --accent-l: 15%;
 
---bg1: #f8fafc; /* 'KalosSteely98': rgb(248, 250, 252) #f8fafc hsl(210, 40%, 98%) */
---bg2: #ebf0f5; /* 'KalosSteely94': rgb(235, 240, 245) #ebf0f5 hsl(210, 33%, 94%) */
+--bg1: #fcfcfd; /* 'KalosSteely99': rgb(252, 252, 253) #fcfcfd hsl(240, 20%, 99%) */
+--bg2: #f2f5f8; /* 'KalosSteely96': rgb(242, 245, 248) #f2f5f8 hsl(210, 30%, 96%) */
 --bg3: rgba(87, 127, 168, 0.5); /* 'KalosSteely50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
 
 --ui1: #eef2f6; /* 'KalosSteely95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
@@ -184,7 +184,9 @@ const KalosSteely = {
   'KalosSteely90': 'rgb(221, 230, 238)',	/* #dde6ee hsl(208, 32%, 90%) */
 /* 'KalosSteely94': rgb(235, 240, 245) #ebf0f5 hsl(210, 33%, 94%) */
   'KalosSteely95': 'rgb(238, 242, 246)',	/* #eef2f6 hsl(210, 31%, 95%) */
+/* 'KalosSteely96': rgb(242, 245, 248) #f2f5f8 hsl(210, 30%, 96%) */
 /* 'KalosSteely98': rgb(248, 250, 252) #f8fafc hsl(210, 40%, 98%) */
+/* 'KalosSteely99': rgb(252, 252, 253) #fcfcfd hsl(240, 20%, 99%) */
 };
 
 const Kalos2Steely = {
