@@ -58,8 +58,8 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --accent-s: 32%;
 --accent-l: 15%;
 
---bg1: #eef2f6; /* 'KalosSteely95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
---bg2: #dde6ee; /* 'KalosSteely90': rgb(221, 230, 238) #dde6ee hsl(208, 32%, 90%) */
+--bg1: #f8fafc; /* 'KalosSteely98': rgb(248, 250, 252) #f8fafc hsl(210, 40%, 98%) */
+--bg2: #ebf0f5; /* 'KalosSteely94': rgb(235, 240, 245) #ebf0f5 hsl(210, 33%, 94%) */
 --bg3: rgba(87, 127, 168, 0.5); /* 'KalosSteely50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
 
 --ui1: #eef2f6; /* 'KalosSteely95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
@@ -97,8 +97,8 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --ui3: #ffffff; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
   
 --tx1: #ffffff; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
---tx2: #f2f2f2; /* 'KalosLeaden95': rgb(242, 242, 242) #f2f2f2 hsl(0, 0%, 95%) */
---tx3: #e6e6e6; /* 'KalosLeaden90': rgb(230, 230, 230) #e6e6e6 hsl(0, 0%, 90%) */
+--tx2: #f8fafc; /* 'KalosSteely98': rgb(248, 250, 252) #f8fafc hsl(210, 40%, 98%) */
+--tx3: #ebf0f5; /* 'KalosSteely94': rgb(235, 240, 245) #ebf0f5 hsl(210, 33%, 94%) */
 
 --hl1: rgba(205, 217, 229, 0.5); /* 'KalosSteely85': rgb(205, 217, 229) #cdd9e5 hsl(210, 32%, 85%) */
 --hl2: rgba(171, 191, 212, 0.5); /* 'KalosSteely75': rgb(171, 191, 212) #abbfd4 hsl(211, 32%, 75%) */
@@ -182,7 +182,9 @@ const KalosSteely = {
   'KalosSteely80': 'rgb(188, 204, 220)',	/* #bcccdc hsl(210, 31%, 80%) */
   'KalosSteely85': 'rgb(205, 217, 229)',	/* #cdd9e5 hsl(210, 32%, 85%) */
   'KalosSteely90': 'rgb(221, 230, 238)',	/* #dde6ee hsl(208, 32%, 90%) */
+/* 'KalosSteely94': rgb(235, 240, 245) #ebf0f5 hsl(210, 33%, 94%) */
   'KalosSteely95': 'rgb(238, 242, 246)',	/* #eef2f6 hsl(210, 31%, 95%) */
+/* 'KalosSteely98': rgb(248, 250, 252) #f8fafc hsl(210, 40%, 98%) */
 };
 
 const Kalos2Steely = {
