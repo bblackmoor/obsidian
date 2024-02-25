@@ -1,72 +1,72 @@
 /* 
-Kalos Greyscale
+Kalos Steely
 MIT License 
 Copyright 2024 Brandon Blackmoor <bblackmoor@blackgate.net>
-https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
+https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-steely.css
 */
 
-.theme-light.minimal-kalos-greyscale-light {
---color-red-rgb: 225, 107, 107;		/* rgb(225, 107, 107) #e16b6b hsl(0, 66%, 65%) */
---color-orange-rgb: 145, 28, 28;	/* rgb(225, 195, 107) #e1c36b hsl(45, 66%, 65%) */
---color-yellow-rgb: 145, 28, 28;	/* rgb(166, 225, 107) #a6e16b hsl(90, 66%, 65%) */
---color-green-rgb: 21, 83, 83;		/* rgb(107, 225, 137) #6be189 hsl(135, 66%, 65%) */
---color-cyan-rgb: 21, 83, 83;		/* rgb(107, 225, 225) #6be1e1 hsl(180, 66%, 65%) */
---color-blue-rgb: 107, 137, 225;	/* rgb(107, 137, 225) #6b89e1 hsl(225, 66%, 65%) */
---color-purple-rgb: 166, 107, 225;	/* rgb(166, 107, 225) #a66be1 hsl(270, 66%, 65%) */
---color-pink-rgb: 225, 107, 195;	/* rgb(225, 107, 195) #e16bc3 hsl(315, 66%, 65%) */
+.theme-light.minimal-kalos-steely-light {
+--color-red-rgb: 224, 108, 108;		/* Kalos-Red-65    hsl(0,   65%, 65%) rgb(224, 108, 108) #E06C6C */
+--color-orange-rgb: 224, 195, 108;	/* Kalos-Orange-65 hsl(45,  65%, 65%) rgb(224, 195, 108) #E0C36C */
+--color-yellow-rgb: 166, 224, 108;	/* Kalos-Yellow-65 hsl(90,  65%, 65%) rgb(166, 224, 108) #A6E06C */
+--color-green-rgb: 108, 224, 137;	/* Kalos-Green-65  hsl(135, 65%, 65%) rgb(108, 224, 137) #6CE089 */
+--color-cyan-rgb: 108, 224, 224;	/* Kalos-Cyan-65   hsl(180, 65%, 65%) rgb(108, 224, 224) #6CE0E0 */
+--color-blue-rgb: 108, 137, 224;	/* Kalos-Blue-65   hsl(225, 65%, 65%) rgb(108, 137, 224) #6C89E0 */
+--color-purple-rgb: 166, 108, 224;	/* Kalos-Purple-65 hsl(270, 65%, 65%) rgb(166, 108, 224) #A66CE0 */
+--color-pink-rgb: 224, 108, 195;	/* Kalos-Pink-65   hsl(315, 65%, 65%) rgb(224, 108, 195) #E06CC3 */
 
---color-red: #e16b6b;		/* rgb(225, 107, 107) #e16b6b hsl(0, 66%, 65%) */
---color-orange: #e1c36b;	/* rgb(225, 195, 107) #e1c36b hsl(45, 66%, 65%) */
---color-yellow: #a6e16b;	/* rgb(166, 225, 107) #a6e16b hsl(90, 66%, 65%) */
---color-green: #6be189;		/* rgb(107, 225, 137) #6be189 hsl(135, 66%, 65%) */
---color-cyan: #6be1e1;		/* rgb(107, 225, 225) #6be1e1 hsl(180, 66%, 65%) */
---color-blue: #6b89e1;		/* rgb(107, 137, 225) #6b89e1 hsl(225, 66%, 65%) */
---color-purple: #a66be1;	/* rgb(166, 107, 225) #a66be1 hsl(270, 66%, 65%) */
---color-pink: #e16bc3;		/* rgb(225, 107, 195) #e16bc3 hsl(315, 66%, 65%) */
+--color-red: #E06C6C;		/* Kalos-Red-65    hsl(0,   65%, 65%) rgb(224, 108, 108) #E06C6C */
+--color-orange: #E0C36C;	/* Kalos-Orange-65 hsl(45,  65%, 65%) rgb(224, 195, 108) #E0C36C */
+--color-yellow: #A6E06C;	/* Kalos-Yellow-65 hsl(90,  65%, 65%) rgb(166, 224, 108) #A6E06C */
+--color-green: #6CE089;		/* Kalos-Green-65  hsl(135, 65%, 65%) rgb(108, 224, 137) #6CE089 */
+--color-cyan: #6CE0E0;		/* Kalos-Cyan-65   hsl(180, 65%, 65%) rgb(108, 224, 224) #6CE0E0 */
+--color-blue: #6C89E0;		/* Kalos-Blue-65   hsl(225, 65%, 65%) rgb(108, 137, 224) #6C89E0 */
+--color-purple: #A66CE0;	/* Kalos-Purple-65 hsl(270, 65%, 65%) rgb(166, 108, 224) #A66CE0 */
+--color-pink: #E06CC3;		/* Kalos-Pink-65   hsl(315, 65%, 65%) rgb(224, 108, 195) #E06CC3 */
 }
 
-.theme-dark.minimal-kalos-greyscale-dark {
---color-red-rgb: 253, 245, 245;		/* rgb(148, 30, 30) #941e1e hsl(0, 66%, 35%) */
---color-orange-rgb: 253, 245, 245;	/* rgb(148, 119, 30) #94771e hsl(45, 66%, 35%) */
---color-yellow-rgb: 253, 245, 245;	/* rgb(89, 148, 30) #59941e hsl(90, 66%, 35%) */
---color-green-rgb: 235, 250, 250;	/* rgb(30, 148, 60) #1e943c hsl(135, 66%, 35%) */
---color-cyan-rgb: 235, 250, 250;	/* rgb(30, 148, 148) #1e9494 hsl(180, 66%, 35%) */
---color-blue-rgb: 235, 250, 250;	/* rgb(30, 60, 148) #1e3c94 hsl(225, 66%, 35%) */
---color-purple-rgb: 252, 245, 252;	/* rgb(89, 30, 148) #591e94 hsl(270, 66%, 35%) */
---color-pink-rgb: 252, 245, 252;	/* rgb(148, 30, 119) #941e77 hsl(315, 66%, 35%) */
+.theme-dark.minimal-kalos-steely-dark {
+--color-red-rgb: 147, 31, 31;		/* Kalos-Red-35    hsl(0,   65%, 35%) rgb(147, 31, 31)  #931F1F */
+--color-orange-rgb: 147, 118, 31;	/* Kalos-Orange-35 hsl(45,  65%, 35%) rgb(147, 118, 31) #93761F */
+--color-yellow-rgb: 89, 147, 31;	/* Kalos-Yellow-35 hsl(90,  65%, 35%) rgb(89, 147, 31)  #59931F */
+--color-green-rgb: 31, 147, 60;		/* Kalos-Green-35  hsl(135, 65%, 35%) rgb(31, 147, 60)  #1F933C */
+--color-cyan-rgb: 31, 147, 147;		/* Kalos-Cyan-35   hsl(180, 65%, 35%) rgb(31, 147, 147) #1F9393 */
+--color-blue-rgb: 31, 60, 147;		/* Kalos-Blue-35   hsl(225, 65%, 35%) rgb(31, 60, 147)  #1F3C93 */
+--color-purple-rgb: 89, 31, 147;	/* Kalos-Purple-35 hsl(270, 65%, 35%) rgb(89, 31, 147)  #591F93 */
+--color-pink-rgb: 147, 31, 118;		/* Kalos-Pink-35   hsl(315, 65%, 35%) rgb(147, 31, 118) #931F76 */
 
---color-red: 253, 245, 245;		/* rgb(148, 30, 30) #941e1e hsl(0, 66%, 35%) */
---color-orange: 253, 245, 245;	/* rgb(148, 119, 30) #94771e hsl(45, 66%, 35%) */
---color-yellow: 253, 245, 245;	/* rgb(89, 148, 30) #59941e hsl(90, 66%, 35%) */
---color-green: 235, 250, 250;	/* rgb(30, 148, 60) #1e943c hsl(135, 66%, 35%) */
---color-cyan: 235, 250, 250;	/* rgb(30, 148, 148) #1e9494 hsl(180, 66%, 35%) */
---color-blue: 235, 250, 250;	/* rgb(30, 60, 148) #1e3c94 hsl(225, 66%, 35%) */
---color-purple: 252, 245, 252;	/* rgb(89, 30, 148) #591e94 hsl(270, 66%, 35%) */
---color-pink: 252, 245, 252;	/* rgb(148, 30, 119) #941e77 hsl(315, 66%, 35%) */
+--color-red: #931F1F;		/* Kalos-Red-35    hsl(0,   65%, 35%) rgb(147, 31, 31)  #931F1F */
+--color-orange: #93761F;	/* Kalos-Orange-35 hsl(45,  65%, 35%) rgb(147, 118, 31) #93761F */
+--color-yellow: #59931F;	/* Kalos-Yellow-35 hsl(90,  65%, 35%) rgb(89, 147, 31)  #59931F */
+--color-green: #1F933C;		/* Kalos-Green-35  hsl(135, 65%, 35%) rgb(31, 147, 60)  #1F933C */
+--color-cyan: #1F9393;		/* Kalos-Cyan-35   hsl(180, 65%, 35%) rgb(31, 147, 147) #1F9393 */
+--color-blue: #1F3C93;		/* Kalos-Blue-35   hsl(225, 65%, 35%) rgb(31, 60, 147)  #1F3C93 */
+--color-purple: #591F93;	/* Kalos-Purple-35 hsl(270, 65%, 35%) rgb(89, 31, 147)  #591F93 */
+--color-pink: #931F76;		/* Kalos-Pink-35   hsl(315, 65%, 35%) rgb(147, 31, 118) #931F76 */
 }
 
 .theme-dark, .theme-light {
     --list-marker-color: var(--text-normal);
 }
 
-.theme-light.minimal-kalos-greyscale-light {
---base-h: 0; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
+.theme-light.minimal-kalos-steely-light {
+--base-h: 0;	/* White hsl(0, 0%, 100%) rgb(255, 255, 255) #FFFFFF */
 --base-s: 0%;
 --base-l: 100%;
 
---accent-h: 210; /* 'KalosSteely15': rgb(26, 38, 50) #1a2632 hsl(210, 32%, 15%) */
+--accent-h: 210; /* Kalos-Steely-15 hsl(225, 32%, 15%) rgb(26, 32, 50) #1A2032 */
 --accent-s: 32%;
 --accent-l: 15%;
 
---bg1: #fcfcfd; /* 'KalosSteely99': rgb(252, 252, 253) #fcfcfd hsl(240, 20%, 99%) */
+--bg1: #fcfcfd; /* Kalos-Steely-98 hsl(225, 32%, 98%) rgb(248, 249, 252) #F8F9FC */
 --bg2: #f2f5f8; /* 'KalosSteely96': rgb(242, 245, 248) #f2f5f8 hsl(210, 30%, 96%) */
 --bg3: rgba(87, 127, 168, 0.5); /* 'KalosSteely50': rgb(87, 127, 168) #577fa8 hsl(210, 32%, 50%) */
 
 --ui1: #eef2f6; /* 'KalosSteely95': rgb(238, 242, 246) #eef2f6 hsl(210, 31%, 95%) */
 --ui2: #dde6ee; /* 'KalosSteely90': rgb(221, 230, 238) #dde6ee hsl(208, 32%, 90%) */
---ui3: #000000; /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
+--ui3: #000000;	/* Black hsl(0, 0%, 0%) rgb(0, 0, 0) #000000 */
   
---tx1: #000000; /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
+--tx1: #000000;	/* Black hsl(0, 0%, 0%) rgb(0, 0, 0) #000000 */
 --tx2: #262626; /* 'KalosLeaden15': rgb(38, 38, 38) #262626 hsl(0, 0%, 15%) */
 --tx3: #333333; /* 'KalosLeaden20': rgb(51, 51, 51) #333333 hsl(0, 0%, 20%) */
 
@@ -74,13 +74,13 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --hl2: rgba(205, 217, 229, 0.5); /* 'KalosSteely85': rgb(205, 217, 229) #cdd9e5 hsl(210, 32%, 85%) */
 }
 
-.theme-dark.minimal-kalos-greyscale-dark,
-.theme-light.minimal-kalos-greyscale-light.minimal-light-contrast .mod-left-split,
-.theme-light.minimal-kalos-greyscale-light.minimal-light-contrast .titlebar,
-.theme-light.minimal-kalos-greyscale-light.minimal-light-contrast .workspace-drawer.mod-left,
-.theme-light.minimal-kalos-greyscale-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
-.theme-light.minimal-kalos-greyscale-light.minimal-light-contrast.minimal-status-off .status-bar {
---base-h: 0; /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
+.theme-dark.minimal-kalos-steely-dark,
+.theme-light.minimal-kalos-steely-light.minimal-light-contrast .mod-left-split,
+.theme-light.minimal-kalos-steely-light.minimal-light-contrast .titlebar,
+.theme-light.minimal-kalos-steely-light.minimal-light-contrast .workspace-drawer.mod-left,
+.theme-light.minimal-kalos-steely-light.minimal-light-contrast .workspace-ribbon.mod-left:not(.is-collapsed),
+.theme-light.minimal-kalos-steely-light.minimal-light-contrast.minimal-status-off .status-bar {
+--base-h: 0;	/* Black hsl(0, 0%, 0%) rgb(0, 0, 0) #000000 */
 --base-s: 0%;
 --base-l: 0%;
 
@@ -94,9 +94,9 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 
 --ui1: #090d11; /* 'KalosSteely05': rgb(9, 13, 17) #090d11 hsl(210, 31%, 5%) */
 --ui2: #111922; /* 'KalosSteely10': 'rgb(17, 25, 34)' #111922 hsl(212, 33%, 10%) */
---ui3: #ffffff; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
+--ui3: #ffffff;	/* White hsl(0, 0%, 100%) rgb(255, 255, 255) #FFFFFF */
   
---tx1: #ffffff; /* 'White' rgb(255, 255, 255) #ffffff hsl(0, 0%, 100%) */
+--tx1: #ffffff;	/* White hsl(0, 0%, 100%) rgb(255, 255, 255) #FFFFFF */
 --tx2: #f8fafc; /* 'KalosSteely98': rgb(248, 250, 252) #f8fafc hsl(210, 40%, 98%) */
 --tx3: #ebf0f5; /* 'KalosSteely94': rgb(235, 240, 245) #ebf0f5 hsl(210, 33%, 94%) */
 
@@ -104,8 +104,8 @@ https://github.com/bblackmoor/obsidian/blob/main/snippets/kalos-greyscale.css
 --hl2: rgba(171, 191, 212, 0.5); /* 'KalosSteely75': rgb(171, 191, 212) #abbfd4 hsl(211, 32%, 75%) */
 }
 
-.theme-dark.minimal-kalos-greyscale-dark.minimal-dark-black {
---ui1:#000000 /* 'Black' rgb(0, 0, 0) #000000 hsl(0, 0%, 0%) */
+.theme-dark.minimal-kalos-steely-dark.minimal-dark-black {
+--ui1:#000000	/* Black hsl(0, 0%, 0%) rgb(0, 0, 0) #000000 */
 }
 
 /* ======== */
@@ -141,96 +141,202 @@ div > * > li > * > li > * > li:not(:last-child) { /* All level 3, excluding last
 /* ======== */
 /* Kalos palettes */
 
-const KalosLeaden = {
-  'KalosLeaden05': 'rgb(13, 13, 13)',		/* #0d0d0d hsl(0, 0%, 5%) */
-  'KalosLeaden10': 'rgb(26, 26, 26)',		/* #1a1a1a hsl(0, 0%, 10%) */
-  'KalosLeaden15': 'rgb(38, 38, 38)',		/* #262626 hsl(0, 0%, 15%) */
-  'KalosLeaden20': 'rgb(51, 51, 51)',		/* #333333 hsl(0, 0%, 20%) */
-  'KalosLeaden25': 'rgb(64, 64, 64)',		/* #404040 hsl(0, 0%, 25%) */
-  'KalosLeaden30': 'rgb(77, 77, 77)',		/* #4d4d4d hsl(0, 0%, 30%) */
-  'KalosLeaden35': 'rgb(89, 89, 89)',		/* #595959 hsl(0, 0%, 35%) */
-  'KalosLeaden40': 'rgb(102, 102, 102)',	/* #666666 hsl(0, 0%, 40%) */
-  'KalosLeaden45': 'rgb(115, 115, 115)',	/* #737373 hsl(0, 0%, 45%) */
-  'KalosLeaden50': 'rgb(128, 128, 128)',	/* #808080 hsl(0, 0%, 50%) */
-  'KalosLeaden55': 'rgb(140, 140, 140)',	/* #8c8c8c hsl(0, 0%, 55%) */
-  'KalosLeaden60': 'rgb(153, 153, 153)',	/* #999999 hsl(0, 0%, 60%) */
-  'KalosLeaden65': 'rgb(166, 166, 166)',	/* #a6a6a6 hsl(0, 0%, 65%) */
-  'KalosLeaden70': 'rgb(179, 179, 179)',	/* #b3b3b3 hsl(0, 0%, 70%) */
-  'KalosLeaden75': 'rgb(191, 191, 191)',	/* #bfbfbf hsl(0, 0%, 75%) */
-  'KalosLeaden80': 'rgb(204, 204, 204)',	/* #cccccc hsl(0, 0%, 80%) */
-  'KalosLeaden85': 'rgb(217, 217, 217)',	/* #d9d9d9 hsl(0, 0%, 85%) */
-  'KalosLeaden90': 'rgb(230, 230, 230)',	/* #e6e6e6 hsl(0, 0%, 90%) */
-  'KalosLeaden95': 'rgb(242, 242, 242)',	/* #f2f2f2 hsl(0, 0%, 95%) */
-};
+/* Black hsl(0, 0%, 0%) rgb(0, 0, 0) #000000 */
+/* White hsl(0, 0%, 100%) rgb(255, 255, 255) #FFFFFF */
 
-const KalosSteely = {
-  'KalosSteely05': 'rgb(9, 13, 17)',		/* #090d11 hsl(210, 31%, 5%) */
-  'KalosSteely10': 'rgb(17, 25, 34)',		/* #111922 hsl(212, 33%, 10%) */
-  'KalosSteely15': 'rgb(26, 38, 50)',		/* #1a2632 hsl(210, 32%, 15%) */
-  'KalosSteely20': 'rgb(35, 51, 67)',		/* #233343 hsl(210, 31%, 20%) */
-  'KalosSteely25': 'rgb(43, 64, 84)',		/* #2b4054 hsl(209, 32%, 25%) */
-  'KalosSteely30': 'rgb(52, 76, 101)',		/* #344c65 hsl(211, 32%, 30%) */
-  'KalosSteely35': 'rgb(61, 89, 118)',		/* #3d5976 hsl(211, 32%, 35%) */
-  'KalosSteely40': 'rgb(69, 102, 135)',		/* #456687 hsl(210, 32%, 40%) */
-  'KalosSteely45': 'rgb(78, 115, 151)',		/* #4e7397 hsl(210, 32%, 45%) */
-  'KalosSteely50': 'rgb(87, 127, 168)',		/* #577fa8 hsl(210, 32%, 50%) */
-  'KalosSteely55': 'rgb(104, 140, 177)',	/* #688cb1 hsl(210, 32%, 55%) */
-  'KalosSteely60': 'rgb(120, 153, 186)',	/* #7899ba hsl(210, 32%, 60%) */
-  'KalosSteely65': 'rgb(137, 166, 194)',	/* #89a6c2 hsl(209, 32%, 65%) */
-  'KalosSteely70': 'rgb(154, 178, 203)',	/* #9ab2cb hsl(211, 32%, 70%) */
-  'KalosSteely75': 'rgb(171, 191, 212)',	/* #abbfd4 hsl(211, 32%, 75%) */
-  'KalosSteely80': 'rgb(188, 204, 220)',	/* #bcccdc hsl(210, 31%, 80%) */
-  'KalosSteely85': 'rgb(205, 217, 229)',	/* #cdd9e5 hsl(210, 32%, 85%) */
-  'KalosSteely90': 'rgb(221, 230, 238)',	/* #dde6ee hsl(208, 32%, 90%) */
-/* 'KalosSteely94': rgb(235, 240, 245) #ebf0f5 hsl(210, 33%, 94%) */
-  'KalosSteely95': 'rgb(238, 242, 246)',	/* #eef2f6 hsl(210, 31%, 95%) */
-/* 'KalosSteely96': rgb(242, 245, 248) #f2f5f8 hsl(210, 30%, 96%) */
-/* 'KalosSteely98': rgb(248, 250, 252) #f8fafc hsl(210, 40%, 98%) */
-/* 'KalosSteely99': rgb(252, 252, 253) #fcfcfd hsl(240, 20%, 99%) */
-};
+/* ==== Kalos-Grey ==== */
+/* Kalos-Grey-05 hsl(225, 0%, 5%) rgb(13, 13, 13) #0D0D0D */
+/* Kalos-Grey-10 hsl(225, 0%, 10%) rgb(26, 26, 26) #1A1A1A */
+/* Kalos-Grey-15 hsl(225, 0%, 15%) rgb(38, 38, 38) #262626 */
+/* Kalos-Grey-20 hsl(225, 0%, 20%) rgb(51, 51, 51) #333333 */
+/* Kalos-Grey-25 hsl(225, 0%, 25%) rgb(64, 64, 64) #404040 */
+/* Kalos-Grey-30 hsl(225, 0%, 30%) rgb(77, 77, 77) #4D4D4D */
+/* Kalos-Grey-35 hsl(225, 0%, 35%) rgb(89, 89, 89) #595959 */
+/* Kalos-Grey-40 hsl(225, 0%, 40%) rgb(102, 102, 102) #666666 */
+/* Kalos-Grey-45 hsl(225, 0%, 45%) rgb(115, 115, 115) #737373 */
+/* Kalos-Grey-50 hsl(225, 0%, 50%) rgb(128, 128, 128) #808080 */
+/* Kalos-Grey-55 hsl(225, 0%, 55%) rgb(140, 140, 140) #8C8C8C */
+/* Kalos-Grey-60 hsl(225, 0%, 60%) rgb(153, 153, 153) #999999 */
+/* Kalos-Grey-65 hsl(225, 0%, 65%) rgb(166, 166, 166) #A6A6A6 */
+/* Kalos-Grey-70 hsl(225, 0%, 70%) rgb(179, 179, 179) #B3B3B3 */
+/* Kalos-Grey-75 hsl(225, 0%, 75%) rgb(191, 191, 191) #BFBFBF */
+/* Kalos-Grey-80 hsl(225, 0%, 80%) rgb(204, 204, 204) #CCCCCC */
+/* Kalos-Grey-85 hsl(225, 0%, 85%) rgb(217, 217, 217) #D9D9D9 */
+/* Kalos-Grey-90 hsl(225, 0%, 90%) rgb(230, 230, 230) #E6E6E6 */
+/* Kalos-Grey-95 hsl(225, 0%, 95%) rgb(242, 242, 242) #F2F2F2 */
+/* Kalos-Grey-96 hsl(225, 0%, 96%) rgb(245, 245, 245) #F5F5F5 */
+/* Kalos-Grey-97 hsl(225, 0%, 97%) rgb(247, 247, 247) #F7F7F7 */
+/* Kalos-Grey-98 hsl(225, 0%, 98%) rgb(250, 250, 250) #FAFAFA */
 
-const Kalos2Steely = {
-  'Kalos2Steely05': 'rgb(9, 12, 17)',		/* #090c11 hsl(215, 32%, 5%) */
-  'Kalos2Steely10': 'rgb(18, 23, 33)',		/* #121721 hsl(215, 32%, 10%) */
-  'Kalos2Steely15': 'rgb(27, 35, 49)',		/* #1b2331 hsl(215, 32%, 15%) */
-  'Kalos2Steely20': 'rgb(35, 51, 67)',		/* #FFFFFF hsl(215, 32%, 20%) */
-  'Kalos2Steely25': 'rgb(43, 64, 84)',		/* #FFFFFF hsl(215, 32%, 25%) */
-  'Kalos2Steely30': 'rgb(52, 76, 101)',		/* #FFFFFF hsl(215, 32%, 30%) */
-  'Kalos2Steely35': 'rgb(61, 89, 118)',		/* #FFFFFF hsl(215, 32%, 35%) */
-  'Kalos2Steely40': 'rgb(69, 102, 135)',	/* #FFFFFF hsl(215, 32%, 40%) */
-  'Kalos2Steely45': 'rgb(78, 115, 151)',	/* #FFFFFF hsl(215, 32%, 45%) */
-  'Kalos2Steely50': 'rgb(87, 127, 168)',	/* #FFFFFF hsl(215, 32%, 50%) */
-  'Kalos2Steely55': 'rgb(104, 140, 177)',	/* #FFFFFF hsl(215, 32%, 55%) */
-  'Kalos2Steely60': 'rgb(120, 153, 186)',	/* #FFFFFF hsl(215, 32%, 60%) */
-  'Kalos2Steely65': 'rgb(137, 166, 194)',	/* #FFFFFF hsl(215, 32%, 65%) */
-  'Kalos2Steely70': 'rgb(154, 178, 203)',	/* #FFFFFF hsl(215, 32%, 70%) */
-  'Kalos2Steely75': 'rgb(171, 191, 212)',	/* #FFFFFF hsl(215, 32%, 75%) */
-  'Kalos2Steely80': 'rgb(188, 204, 220)',	/* #FFFFFF hsl(215, 32%, 80%) */
-  'Kalos2Steely85': 'rgb(205, 217, 229)',	/* #FFFFFF hsl(215, 32%, 85%) */
-  'Kalos2Steely90': 'rgb(221, 230, 238)',	/* #FFFFFF hsl(215, 32%, 90%) */
-  'Kalos2Steely95': 'rgb(238, 242, 246)',	/* #FFFFFF hsl(215, 32%, 95%) */
-};
+/* ==== Kalos-Cyan-Blue ==== */
+/* Kalos-Cyan-Blue-05 hsl(210, 50%, 5%) rgb(6, 13, 19) #060D13 */
+/* Kalos-Cyan-Blue-10 hsl(210, 50%, 10%) rgb(13, 25, 38) #0D1926 */
+/* Kalos-Cyan-Blue-15 hsl(210, 50%, 15%) rgb(19, 38, 57) #132639 */
+/* Kalos-Cyan-Blue-20 hsl(210, 50%, 20%) rgb(25, 51, 77) #19334D */
+/* Kalos-Cyan-Blue-25 hsl(210, 50%, 25%) rgb(32, 64, 96) #204060 */
+/* Kalos-Cyan-Blue-30 hsl(210, 50%, 30%) rgb(38, 76, 115) #264C73 */
+/* Kalos-Cyan-Blue-35 hsl(210, 50%, 35%) rgb(45, 89, 134) #2D5986 */
+/* Kalos-Cyan-Blue-40 hsl(210, 50%, 40%) rgb(51, 102, 153) #336699 */
+/* Kalos-Cyan-Blue-45 hsl(210, 50%, 45%) rgb(57, 115, 172) #3973AC */
+/* Kalos-Cyan-Blue-50 hsl(210, 50%, 50%) rgb(64, 127, 191) #407FBF */
+/* Kalos-Cyan-Blue-55 hsl(210, 50%, 55%) rgb(83, 140, 198) #538CC6 */
+/* Kalos-Cyan-Blue-60 hsl(210, 50%, 60%) rgb(102, 153, 204) #6699CC */
+/* Kalos-Cyan-Blue-65 hsl(210, 50%, 65%) rgb(121, 166, 210) #79A6D2 */
+/* Kalos-Cyan-Blue-70 hsl(210, 50%, 70%) rgb(140, 178, 217) #8CB2D9 */
+/* Kalos-Cyan-Blue-75 hsl(210, 50%, 75%) rgb(159, 191, 223) #9FBFDF */
+/* Kalos-Cyan-Blue-80 hsl(210, 50%, 80%) rgb(179, 204, 230) #B3CCE6 */
+/* Kalos-Cyan-Blue-85 hsl(210, 50%, 85%) rgb(198, 217, 236) #C6D9EC */
+/* Kalos-Cyan-Blue-90 hsl(210, 50%, 90%) rgb(217, 230, 242) #D9E6F2 */
+/* Kalos-Cyan-Blue-95 hsl(210, 50%, 95%) rgb(236, 242, 249) #ECF2F9 */
+/* Kalos-Cyan-Blue-96 hsl(210, 50%, 96%) rgb(240, 245, 250) #F0F5FA */
+/* Kalos-Cyan-Blue-97 hsl(210, 50%, 97%) rgb(244, 247, 251) #F4F7FB */
+/* Kalos-Cyan-Blue-98 hsl(210, 50%, 98%) rgb(247, 250, 252) #F7FAFC */
+/* Kalos-Cyan-Blue-99 hsl(210, 50%, 99%) rgb(251, 252, 254) #FBFCFE */
 
-const KalosCobalt = {
-  'KalosCobalt05': 'rgb(9, 13, 17)',		/* #090d11 hsl(210, 31%, 5%) */
-  'KalosCobalt10': 'rgb(17, 25, 34)',		/* #111922 hsl(212, 33%, 10%) */
-  'KalosCobalt15': 'rgb(26, 38, 50)',		/* #1a2632 hsl(210, 32%, 15%) */
-  'KalosCobalt20': 'rgb(35, 51, 67)',		/* #233343 hsl(210, 31%, 20%) */
-  'KalosCobalt25': 'rgb(43, 64, 84)',		/* #2b4054 hsl(209, 32%, 25%) */
-  'KalosCobalt30': 'rgb(52, 76, 101)',		/* #344c65 hsl(211, 32%, 30%) */
-  'KalosCobalt35': 'rgb(61, 89, 118)',		/* #3d5976 hsl(211, 32%, 35%) */
-  'KalosCobalt40': 'rgb(69, 102, 135)',		/* #456687 hsl(210, 32%, 40%) */
-  'KalosCobalt45': 'rgb(78, 115, 151)',		/* #4e7397 hsl(210, 32%, 45%) */
-  'KalosCobalt50': 'rgb(87, 127, 168)',		/* #577fa8 hsl(210, 32%, 50%) */
-  'KalosCobalt55': 'rgb(104, 140, 177)',	/* #688cb1 hsl(210, 32%, 55%) */
-  'KalosCobalt60': 'rgb(120, 153, 186)',	/* #7899ba hsl(210, 32%, 60%) */
-  'KalosCobalt65': 'rgb(137, 166, 194)',	/* #89a6c2 hsl(209, 32%, 65%) */
-  'KalosCobalt70': 'rgb(154, 178, 203)',	/* #9ab2cb hsl(211, 32%, 70%) */
-  'KalosCobalt75': 'rgb(171, 191, 212)',	/* #abbfd4 hsl(211, 32%, 75%) */
-  'KalosCobalt80': 'rgb(188, 204, 220)',	/* #bcccdc hsl(210, 31%, 80%) */
-  'KalosCobalt85': 'rgb(205, 217, 229)',	/* #cdd9e5 hsl(210, 32%, 85%) */
-  'KalosCobalt90': 'rgb(221, 230, 238)',	/* #dde6ee hsl(208, 32%, 90%) */
-  'KalosCobalt95': 'rgb(238, 242, 246)',	/* #eef2f6 hsl(210, 31%, 95%) */
-};
+/* ==== Kalos-Blue ==== */
+/* Kalos-Blue-05 hsl(225, 50%, 5%) rgb(6, 10, 19) #060A13 */
+/* Kalos-Blue-10 hsl(225, 50%, 10%) rgb(13, 19, 38) #0D1326 */
+/* Kalos-Blue-15 hsl(225, 50%, 15%) rgb(19, 29, 57) #131D39 */
+/* Kalos-Blue-20 hsl(225, 50%, 20%) rgb(25, 38, 77) #19264D */
+/* Kalos-Blue-25 hsl(225, 50%, 25%) rgb(32, 48, 96) #203060 */
+/* Kalos-Blue-30 hsl(225, 50%, 30%) rgb(38, 57, 115) #263973 */
+/* Kalos-Blue-35 hsl(225, 50%, 35%) rgb(45, 67, 134) #2D4386 */
+/* Kalos-Blue-40 hsl(225, 50%, 40%) rgb(51, 76, 153) #334C99 */
+/* Kalos-Blue-45 hsl(225, 50%, 45%) rgb(57, 86, 172) #3956AC */
+/* Kalos-Blue-50 hsl(225, 50%, 50%) rgb(64, 96, 191) #4060BF */
+/* Kalos-Blue-55 hsl(225, 50%, 55%) rgb(83, 112, 198) #5370C6 */
+/* Kalos-Blue-60 hsl(225, 50%, 60%) rgb(102, 127, 204) #667FCC */
+/* Kalos-Blue-65 hsl(225, 50%, 65%) rgb(121, 143, 210) #798FD2 */
+/* Kalos-Blue-70 hsl(225, 50%, 70%) rgb(140, 159, 217) #8C9FD9 */
+/* Kalos-Blue-75 hsl(225, 50%, 75%) rgb(159, 175, 223) #9FAFDF */
+/* Kalos-Blue-80 hsl(225, 50%, 80%) rgb(179, 191, 230) #B3BFE6 */
+/* Kalos-Blue-85 hsl(225, 50%, 85%) rgb(198, 207, 236) #C6CFEC */
+/* Kalos-Blue-90 hsl(225, 50%, 90%) rgb(217, 223, 242) #D9DFF2 */
+/* Kalos-Blue-95 hsl(225, 50%, 95%) rgb(236, 239, 249) #ECEFF9 */
+/* Kalos-Blue-96 hsl(225, 50%, 96%) rgb(240, 242, 250) #F0F2FA */
+/* Kalos-Blue-97 hsl(225, 50%, 97%) rgb(244, 245, 251) #F4F5FB */
+/* Kalos-Blue-98 hsl(225, 50%, 98%) rgb(247, 249, 252) #F7F9FC */
+/* Kalos-Blue-99 hsl(225, 50%, 99%) rgb(251, 252, 254) #FBFCFE */
+
+/* ==== Kalos-Purple-Blue ==== */
+/* Kalos-Purple-Blue-05 hsl(240, 50%, 5%) rgb(6, 6, 19) #060613 */
+/* Kalos-Purple-Blue-10 hsl(240, 50%, 10%) rgb(13, 13, 38) #0D0D26 */
+/* Kalos-Purple-Blue-15 hsl(240, 50%, 15%) rgb(19, 19, 57) #131339 */
+/* Kalos-Purple-Blue-20 hsl(240, 50%, 20%) rgb(25, 25, 77) #19194D */
+/* Kalos-Purple-Blue-25 hsl(240, 50%, 25%) rgb(32, 32, 96) #202060 */
+/* Kalos-Purple-Blue-30 hsl(240, 50%, 30%) rgb(38, 38, 115) #262673 */
+/* Kalos-Purple-Blue-35 hsl(240, 50%, 35%) rgb(45, 45, 134) #2D2D86 */
+/* Kalos-Purple-Blue-40 hsl(240, 50%, 40%) rgb(51, 51, 153) #333399 */
+/* Kalos-Purple-Blue-45 hsl(240, 50%, 45%) rgb(57, 57, 172) #3939AC */
+/* Kalos-Purple-Blue-50 hsl(240, 50%, 50%) rgb(64, 64, 191) #4040BF */
+/* Kalos-Purple-Blue-55 hsl(240, 50%, 55%) rgb(83, 83, 198) #5353C6 */
+/* Kalos-Purple-Blue-60 hsl(240, 50%, 60%) rgb(102, 102, 204) #6666CC */
+/* Kalos-Purple-Blue-65 hsl(240, 50%, 65%) rgb(121, 121, 210) #7979D2 */
+/* Kalos-Purple-Blue-70 hsl(240, 50%, 70%) rgb(140, 140, 217) #8C8CD9 */
+/* Kalos-Purple-Blue-75 hsl(240, 50%, 75%) rgb(159, 159, 223) #9F9FDF */
+/* Kalos-Purple-Blue-80 hsl(240, 50%, 80%) rgb(179, 179, 230) #B3B3E6 */
+/* Kalos-Purple-Blue-85 hsl(240, 50%, 85%) rgb(198, 198, 236) #C6C6EC */
+/* Kalos-Purple-Blue-90 hsl(240, 50%, 90%) rgb(217, 217, 242) #D9D9F2 */
+/* Kalos-Purple-Blue-95 hsl(240, 50%, 95%) rgb(236, 236, 249) #ECECF9 */
+/* Kalos-Purple-Blue-96 hsl(240, 50%, 96%) rgb(240, 240, 250) #F0F0FA */
+/* Kalos-Purple-Blue-97 hsl(240, 50%, 97%) rgb(244, 244, 251) #F4F4FB */
+/* Kalos-Purple-Blue-98 hsl(240, 50%, 98%) rgb(247, 247, 252) #F7F7FC */
+/* Kalos-Purple-Blue-99 hsl(240, 50%, 99%) rgb(251, 251, 254) #FBFBFE */
+
+/* ==== Kalos-Cyan-Blue ==== */
+/* Kalos-Cyan-Blue-05 hsl(210, 50%, 5%) rgb(6, 13, 19) #060D13 */
+/* Kalos-Cyan-Blue-10 hsl(210, 50%, 10%) rgb(13, 25, 38) #0D1926 */
+/* Kalos-Cyan-Blue-15 hsl(210, 50%, 15%) rgb(19, 38, 57) #132639 */
+/* Kalos-Cyan-Blue-20 hsl(210, 50%, 20%) rgb(25, 51, 77) #19334D */
+/* Kalos-Cyan-Blue-25 hsl(210, 50%, 25%) rgb(32, 64, 96) #204060 */
+/* Kalos-Cyan-Blue-30 hsl(210, 50%, 30%) rgb(38, 76, 115) #264C73 */
+/* Kalos-Cyan-Blue-35 hsl(210, 50%, 35%) rgb(45, 89, 134) #2D5986 */
+/* Kalos-Cyan-Blue-40 hsl(210, 50%, 40%) rgb(51, 102, 153) #336699 */
+/* Kalos-Cyan-Blue-45 hsl(210, 50%, 45%) rgb(57, 115, 172) #3973AC */
+/* Kalos-Cyan-Blue-50 hsl(210, 50%, 50%) rgb(64, 127, 191) #407FBF */
+/* Kalos-Cyan-Blue-55 hsl(210, 50%, 55%) rgb(83, 140, 198) #538CC6 */
+/* Kalos-Cyan-Blue-60 hsl(210, 50%, 60%) rgb(102, 153, 204) #6699CC */
+/* Kalos-Cyan-Blue-65 hsl(210, 50%, 65%) rgb(121, 166, 210) #79A6D2 */
+/* Kalos-Cyan-Blue-70 hsl(210, 50%, 70%) rgb(140, 178, 217) #8CB2D9 */
+/* Kalos-Cyan-Blue-75 hsl(210, 50%, 75%) rgb(159, 191, 223) #9FBFDF */
+/* Kalos-Cyan-Blue-80 hsl(210, 50%, 80%) rgb(179, 204, 230) #B3CCE6 */
+/* Kalos-Cyan-Blue-85 hsl(210, 50%, 85%) rgb(198, 217, 236) #C6D9EC */
+/* Kalos-Cyan-Blue-90 hsl(210, 50%, 90%) rgb(217, 230, 242) #D9E6F2 */
+/* Kalos-Cyan-Blue-95 hsl(210, 50%, 95%) rgb(236, 242, 249) #ECF2F9 */
+/* Kalos-Cyan-Blue-96 hsl(210, 50%, 96%) rgb(240, 245, 250) #F0F5FA */
+/* Kalos-Cyan-Blue-97 hsl(210, 50%, 97%) rgb(244, 247, 251) #F4F7FB */
+/* Kalos-Cyan-Blue-98 hsl(210, 50%, 98%) rgb(247, 250, 252) #F7FAFC */
+
+/* ==== Kalos-Cyan-Steely ==== */
+/* Kalos-Cyan-Steely-05 hsl(210, 32%, 5%) rgb(9, 13, 17) #090D11 */
+/* Kalos-Cyan-Steely-10 hsl(210, 32%, 10%) rgb(17, 25, 34) #111922 */
+/* Kalos-Cyan-Steely-15 hsl(210, 32%, 15%) rgb(26, 38, 50) #1A2632 */
+/* Kalos-Cyan-Steely-20 hsl(210, 32%, 20%) rgb(35, 51, 67) #233343 */
+/* Kalos-Cyan-Steely-25 hsl(210, 32%, 25%) rgb(43, 64, 84) #2B4054 */
+/* Kalos-Cyan-Steely-30 hsl(210, 32%, 30%) rgb(52, 76, 101) #344C65 */
+/* Kalos-Cyan-Steely-35 hsl(210, 32%, 35%) rgb(61, 89, 118) #3D5976 */
+/* Kalos-Cyan-Steely-40 hsl(210, 32%, 40%) rgb(69, 102, 135) #456687 */
+/* Kalos-Cyan-Steely-45 hsl(210, 32%, 45%) rgb(78, 115, 151) #4E7397 */
+/* Kalos-Cyan-Steely-50 hsl(210, 32%, 50%) rgb(87, 127, 168) #577FA8 */
+/* Kalos-Cyan-Steely-55 hsl(210, 32%, 55%) rgb(104, 140, 177) #688CB1 */
+/* Kalos-Cyan-Steely-60 hsl(210, 32%, 60%) rgb(120, 153, 186) #7899BA */
+/* Kalos-Cyan-Steely-65 hsl(210, 32%, 65%) rgb(137, 166, 194) #89A6C2 */
+/* Kalos-Cyan-Steely-70 hsl(210, 32%, 70%) rgb(154, 178, 203) #9AB2CB */
+/* Kalos-Cyan-Steely-75 hsl(210, 32%, 75%) rgb(171, 191, 212) #ABBFD4 */
+/* Kalos-Cyan-Steely-80 hsl(210, 32%, 80%) rgb(188, 204, 220) #BCCCDC */
+/* Kalos-Cyan-Steely-85 hsl(210, 32%, 85%) rgb(205, 217, 229) #CDD9E5 */
+/* Kalos-Cyan-Steely-90 hsl(210, 32%, 90%) rgb(221, 230, 238) #DDE6EE */
+/* Kalos-Cyan-Steely-95 hsl(210, 32%, 95%) rgb(238, 242, 246) #EEF2F6 */
+/* Kalos-Cyan-Steely-96 hsl(210, 32%, 96%) rgb(242, 245, 248) #F2F5F8 */
+/* Kalos-Cyan-Steely-97 hsl(210, 32%, 97%) rgb(245, 247, 250) #F5F7FA */
+/* Kalos-Cyan-Steely-98 hsl(210, 32%, 98%) rgb(248, 250, 252) #F8FAFC */
+
+/* ==== Kalos-Steely ==== */
+/* Kalos-Steely-05 hsl(225, 32%, 5%) rgb(9, 11, 17) #090B11 */
+/* Kalos-Steely-10 hsl(225, 32%, 10%) rgb(17, 21, 34) #111522 */
+/* Kalos-Steely-15 hsl(225, 32%, 15%) rgb(26, 32, 50) #1A2032 */
+/* Kalos-Steely-20 hsl(225, 32%, 20%) rgb(35, 43, 67) #232B43 */
+/* Kalos-Steely-25 hsl(225, 32%, 25%) rgb(43, 54, 84) #2B3654 */
+/* Kalos-Steely-30 hsl(225, 32%, 30%) rgb(52, 64, 101) #344065 */
+/* Kalos-Steely-35 hsl(225, 32%, 35%) rgb(61, 75, 118) #3D4B76 */
+/* Kalos-Steely-40 hsl(225, 32%, 40%) rgb(69, 86, 135) #455687 */
+/* Kalos-Steely-45 hsl(225, 32%, 45%) rgb(78, 96, 151) #4E6097 */
+/* Kalos-Steely-50 hsl(225, 32%, 50%) rgb(87, 107, 168) #576BA8 */
+/* Kalos-Steely-55 hsl(225, 32%, 55%) rgb(104, 122, 177) #687AB1 */
+/* Kalos-Steely-60 hsl(225, 32%, 60%) rgb(120, 137, 186) #7889BA */
+/* Kalos-Steely-65 hsl(225, 32%, 65%) rgb(137, 151, 194) #8997C2 */
+/* Kalos-Steely-70 hsl(225, 32%, 70%) rgb(154, 166, 203) #9AA6CB */
+/* Kalos-Steely-75 hsl(225, 32%, 75%) rgb(171, 181, 212) #ABB5D4 */
+/* Kalos-Steely-80 hsl(225, 32%, 80%) rgb(188, 196, 220) #BCC4DC */
+/* Kalos-Steely-85 hsl(225, 32%, 85%) rgb(205, 211, 229) #CDD3E5 */
+/* Kalos-Steely-90 hsl(225, 32%, 90%) rgb(221, 225, 238) #DDE1EE */
+/* Kalos-Steely-95 hsl(225, 32%, 95%) rgb(238, 240, 246) #EEF0F6 */
+/* Kalos-Steely-96 hsl(225, 32%, 96%) rgb(242, 243, 248) #F2F3F8 */
+/* Kalos-Steely-97 hsl(225, 32%, 97%) rgb(245, 246, 250) #F5F6FA */
+/* Kalos-Steely-98 hsl(225, 32%, 98%) rgb(248, 249, 252) #F8F9FC */
+
+/* ==== Kalos-Purple-Steely ==== */
+/* Kalos-Purple-Steely-05 hsl(240, 32%, 5%) rgb(9, 9, 17) #090911 */
+/* Kalos-Purple-Steely-10 hsl(240, 32%, 10%) rgb(17, 17, 34) #111122 */
+/* Kalos-Purple-Steely-15 hsl(240, 32%, 15%) rgb(26, 26, 50) #1A1A32 */
+/* Kalos-Purple-Steely-20 hsl(240, 32%, 20%) rgb(35, 35, 67) #232343 */
+/* Kalos-Purple-Steely-25 hsl(240, 32%, 25%) rgb(43, 43, 84) #2B2B54 */
+/* Kalos-Purple-Steely-30 hsl(240, 32%, 30%) rgb(52, 52, 101) #343465 */
+/* Kalos-Purple-Steely-35 hsl(240, 32%, 35%) rgb(61, 61, 118) #3D3D76 */
+/* Kalos-Purple-Steely-40 hsl(240, 32%, 40%) rgb(69, 69, 135) #454587 */
+/* Kalos-Purple-Steely-45 hsl(240, 32%, 45%) rgb(78, 78, 151) #4E4E97 */
+/* Kalos-Purple-Steely-50 hsl(240, 32%, 50%) rgb(87, 87, 168) #5757A8 */
+/* Kalos-Purple-Steely-55 hsl(240, 32%, 55%) rgb(104, 104, 177) #6868B1 */
+/* Kalos-Purple-Steely-60 hsl(240, 32%, 60%) rgb(120, 120, 186) #7878BA */
+/* Kalos-Purple-Steely-65 hsl(240, 32%, 65%) rgb(137, 137, 194) #8989C2 */
+/* Kalos-Purple-Steely-70 hsl(240, 32%, 70%) rgb(154, 154, 203) #9A9ACB */
+/* Kalos-Purple-Steely-75 hsl(240, 32%, 75%) rgb(171, 171, 212) #ABABD4 */
+/* Kalos-Purple-Steely-80 hsl(240, 32%, 80%) rgb(188, 188, 220) #BCBCDC */
+/* Kalos-Purple-Steely-85 hsl(240, 32%, 85%) rgb(205, 205, 229) #CDCDE5 */
+/* Kalos-Purple-Steely-90 hsl(240, 32%, 90%) rgb(221, 221, 238) #DDDDEE */
+/* Kalos-Purple-Steely-95 hsl(240, 32%, 95%) rgb(238, 238, 246) #EEEEF6 */
+/* Kalos-Purple-Steely-96 hsl(240, 32%, 96%) rgb(242, 242, 248) #F2F2F8 */
+/* Kalos-Purple-Steely-97 hsl(240, 32%, 97%) rgb(245, 245, 250) #F5F5FA */
+/* Kalos-Purple-Steely-98 hsl(240, 32%, 98%) rgb(248, 248, 252) #F8F8FC */
 
 */
