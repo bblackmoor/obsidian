@@ -18,6 +18,7 @@ let monthName = ""
 let year = ""
 let pageContent = ""
 
+// # ADD PATH CHECKING
 // # BEGIN JOURNAL SECTION
 // Add initial page content
 // very simple YYYY-MM-DD date format regex
