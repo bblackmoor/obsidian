@@ -1,12 +1,12 @@
-[[Journal]] | [[2024]]
-# [[2024-10 October]]
+[Journal](Journal.md) | [2024](Brandon%27s%20notebook/Journal/2024/2024.md)
+# [2024-10 October](Brandon%27s%20notebook/Journal/2024/2024-10%20October.md)
 
 | SUN | MON | TUE | WED | THU | FRI | SAT |
 |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
-|    |    | [[2024-10-01\|01]] | [[2024-10-02\|02]] | [[2024-10-03\|03]] | [[2024-10-04\|04]] | [[2024-10-05\|05]] |
-| [[2024-10-06\|06]] | [[2024-10-07\|07]] | [[2024-10-08\|08]] | [[2024-10-09\|09]] | [[2024-10-10\|10]] | [[2024-10-11\|11]] | [[2024-10-12\|12]] |
-| [[2024-10-13\|13]] | [[2024-10-14\|14]] | [[2024-10-15\|15]] | [[2024-10-16\|16]] | [[2024-10-17\|17]] | [[2024-10-18\|18]] | [[2024-10-19\|19]] |
-| [[2024-10-20\|20]] | [[2024-10-21\|21]] | [[2024-10-22\|22]] | [[2024-10-23\|23]] | [[2024-10-24\|24]] | [[2024-10-25\|25]] | [[2024-10-26\|26]] |
-| [[2024-10-27\|27]] | [[2024-10-28\|28]] | [[2024-10-29\|29]] | [[2024-10-30\|30]] | [[2024-10-31\|31]] |    |    |
+|    |    | [01](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-01.md) | [02](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-02.md) | [03](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-03.md) | [04](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-04.md) | [05](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-05.md) |
+| [06](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-06.md) | [07](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-07.md) | [08](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-08.md) | [09](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-09.md) | [10](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-10.md) | [11](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-11.md) | [12](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-12.md) |
+| [13](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-13.md) | [14](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-14.md) | [15](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-15.md) | [16](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-16.md) | [17](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-17.md) | [18](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-18.md) | [19](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-19.md) |
+| [20](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-20.md) | [21](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-21.md) | [22](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-22.md) | [23](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-23.md) | [24](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-24.md) | [25](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-25.md) | [26](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-26.md) |
+| [27](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-27.md) | [28](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-28.md) | [29](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-29.md) | [30](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-30.md) | [31](Brandon%27s%20notebook/Journal/2024/2024-10%20October/2024-10-31.md) |    |    |
 
 
