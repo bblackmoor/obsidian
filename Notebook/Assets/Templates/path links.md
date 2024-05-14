@@ -9,6 +9,8 @@ if (title.startsWith("Untitled")) {
 await tp.file.rename(title)
 
 let pageTitle = title
+let pageTitleHTML = pageTitle.replace(/ /g, "%20")
+
 let day = ""
 let dayName = ""
 let month = ""
@@ -44,6 +46,10 @@ const links = []
 // get TAbstractFile for current note
 const notePath = tp.file.path(true)
 let tFile = this.app.vault.getAbstractFileByPath(notePath)
+
+let tFileParentName = ""
+let tFileParentNameHTML = ""
+
 let i = 0
 let j = 0
 let linkParentPath = "../"
@@ -51,15 +57,18 @@ let linkPath = ""
 
 while (!tFile.parent?.isRoot() ) {
 	i++
+	
+	tFileParentName = tFile.parent.name
+	tFileParentNameHTML = tFileParentName.replace(/ /g, "\%20")
 
-	if (i == 1 && pageTitle == tFile.parent.name ) {
+	if (i == 1 && pageTitle == tFileParentName ) {
 		pageContent += "%% Waypoint %%\n"
 	}
 
 	if (tFile.parent?.isRoot() && i > 2) {
 		// this space intentionally left blank
 	} else {
-		if (i != 1 || pageTitle != tFile.parent.name ) {
+		if (i != 1 || pageTitle != tFileParentName ) {
 			if (tFile.parent?.parent?.isRoot() && i > 2) {
 				// this space intentionally left blank
 			} else {
@@ -71,8 +80,8 @@ while (!tFile.parent?.isRoot() ) {
 					linkPath = linkPath + linkParentPath
 				}
 
-				linkPath = linkPath + tFile.parent.name + "|"
-				links.unshift("[[" + linkPath + tFile.parent.name + "]]")
+				// Creating markdown links
+				links.unshift("["+ tFileParentName + "](" + linkPath + tFileParentNameHTML + ".md)")
 			}
 		}
 	}
@@ -84,6 +93,6 @@ if (links.length > 0) {
 	tR += links.join(" | ")
 	tR += "\n"
 }
-%># [[<% pageTitle %>]]<% dayName %>
+%># [<% pageTitle %>](<% pageTitleHTML %>.md) <% dayName %>
 
 <% pageContent %><% tp.file.cursor() %><%* app.workspace.activeLeaf.view.editor?.focus(); %>
